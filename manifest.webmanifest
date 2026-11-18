@@ -1,0 +1,30 @@
+{
+  "id": "./",
+  "name": "Emergency Ready",
+  "short_name": "Emergency Ready",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef3f6",
+  "theme_color": "#143344",
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "description": "Private first-aid educational prototype with guided responses and offline references.",
+  "lang": "en-US"
+}

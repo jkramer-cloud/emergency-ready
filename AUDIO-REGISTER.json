@@ -1,0 +1,979 @@
+{
+  "language": "en-US",
+  "generation": "eSpeak synthetic narration; local MP3; not human-recorded",
+  "clips": [
+    {
+      "key": "home",
+      "file": "assets/audio/home.mp3",
+      "text": "What is happening? Get a nearby adult or another helper. If someone is in danger or you are unsure, call 911 now. Choose not responding, choking, severe bleeding, seizure, trouble breathing, or other emergency. You can also choose I do not know what to do, or I have an AED.",
+      "spokenText": "What is happening? Get a nearby adult or another helper. If someone is in danger or you are unsure, call nine one one now. Choose not responding, choking, severe bleeding, seizure, trouble breathing, or other emergency. You can also choose I do not know what to do, or I have an A E D.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "response-0",
+      "file": "assets/audio/response-0.mp3",
+      "text": "Call 911 now. Ask someone to bring an AED. Make sure the area is safe. Shout to the person and gently tap their shoulder (tap a baby’s foot). Check for normal breathing for no more than 10 seconds. Gasping is NOT normal breathing. Choose: Not breathing normally Breathing normally",
+      "spokenText": "Call nine one one now. Ask someone to bring an A E D. Make sure the area is safe. Shout to the person and gently tap their shoulder (tap a baby’s foot). Check for normal breathing for no more than 10 seconds. Gasping is NOT normal breathing. Choose: Not breathing normally Breathing normally",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "cpr-age-0",
+      "file": "assets/audio/cpr-age-0.mp3",
+      "text": "Call 911 on speaker if possible. Get an AED. Follow the dispatcher. Do not delay compressions. Choose the closest age group to see the right CPR instructions. Choose: Teen or adult Child Baby",
+      "spokenText": "Call nine one one on speaker if possible. Get an A E D. Follow the dispatcher. Do not delay compressions. Choose the closest age group to see the right C P R instructions. Choose: Teen or adult Child Baby",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "choking-0",
+      "file": "assets/audio/choking-0.mp3",
+      "text": "If they cannot breathe, speak, cry or cough effectively, call 911 or have someone call now. If they can cough strongly, encourage coughing and stay with them. For severe choking, choose an age. If the person becomes unresponsive, start CPR and follow the dispatcher. Choose: Age 1 or older Baby under 1 They are not responding",
+      "spokenText": "If they cannot breathe, speak, cry or cough effectively, call nine one one or have someone call now. If they can cough strongly, encourage coughing and stay with them. For severe choking, choose an age. If the person becomes unresponsive, start C P R and follow the dispatcher. Choose: Age 1 or older Baby under 1 They are not responding",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "breathing-0",
+      "file": "assets/audio/breathing-0.mp3",
+      "text": "Call 911 now for severe trouble breathing or if the person cannot talk normally. Stay with them. Help a responsive person sit in a position that makes breathing easier. Do not assume the cause. Choose: Severe allergic reaction Known asthma Choking Not responding",
+      "spokenText": "Call nine one one now for severe trouble breathing or if the person cannot talk normally. Stay with them. Help a responsive person sit in a position that makes breathing easier. Do not assume the cause. Choose: Severe allergic reaction Known asthma Choking Not responding",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "more-0",
+      "file": "assets/audio/more-0.mp3",
+      "text": "Call 911 for immediate danger, serious injury or if you are unsure. Pick the closest situation, or search the full library. Choose: Chest pain or pressure Sudden trouble speaking or weakness Swallowed or breathed something harmful Burn Head injury Possible broken bone Very hot and confused Diabetic emergency",
+      "spokenText": "Call nine one one for immediate danger, serious injury or if you are unsure. Pick the closest situation, or search the full library. Choose: Chest pain or pressure Sudden trouble speaking or weakness Swallowed or breathed something harmful Burn Head injury Possible broken bone Very hot and confused Diabetic emergency",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "unsure-0",
+      "file": "assets/audio/unsure-0.mp3",
+      "text": "Call 911 if someone may be seriously hurt or sick, or you are not sure. Get a nearby adult. Stay somewhere safe. Tell the dispatcher your location and what you see. Do not put yourself in danger. Follow their instructions. Choose: They won’t wake up They are bleeding heavily They cannot breathe Something else",
+      "spokenText": "Call nine one one if someone may be seriously hurt or sick, or you are not sure. Get a nearby adult. Stay somewhere safe. Tell the dispatcher your location and what you see. Do not put yourself in danger. Follow their instructions. Choose: They won’t wake up They are bleeding heavily They cannot breathe Something else",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "first-0",
+      "file": "assets/audio/first-0.mp3",
+      "text": "Do not enter an unsafe scene. Call 911 for a life-threatening condition. Check for hazards before approaching. Use protective equipment if available. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "spokenText": "Do not enter an unsafe scene. Call nine one one for a life-threatening condition. Check for hazards before approaching. Use protective equipment if available. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "first-1",
+      "file": "assets/audio/first-1.mp3",
+      "text": "Do not enter an unsafe scene. Call 911 for a life-threatening condition. Check responsiveness and normal breathing for no more than 10 seconds; look for severe bleeding. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "spokenText": "Do not enter an unsafe scene. Call nine one one for a life-threatening condition. Check responsiveness and normal breathing for no more than 10 seconds; look for severe bleeding. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "first-2",
+      "file": "assets/audio/first-2.mp3",
+      "text": "Do not enter an unsafe scene. Call 911 for a life-threatening condition. Call 911 or ask someone to call and bring an AED. Follow the dispatcher. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "spokenText": "Do not enter an unsafe scene. Call nine one one for a life-threatening condition. Call nine one one or ask someone to call and bring an A E D. Follow the dispatcher. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "first-3",
+      "file": "assets/audio/first-3.mp3",
+      "text": "Do not enter an unsafe scene. Call 911 for a life-threatening condition. If unresponsive and not breathing normally (including only gasping), start CPR and use an AED as soon as possible. Give other care within your training. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "spokenText": "Do not enter an unsafe scene. Call nine one one for a life-threatening condition. If unresponsive and not breathing normally (including only gasping), start C P R and use an A E D as soon as possible. Give other care within your training. Important. If unresponsive but breathing normally, keep the airway clear and use a side recovery position if safe; monitor breathing. Gasping is not normal breathing. Do not move a person with a suspected spinal injury unless safety or lifesaving care requires it.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "adult-0",
+      "file": "assets/audio/adult-0.mp3",
+      "text": "Call 911 and get an AED. Start CPR immediately. Place the person on their back on a firm, flat surface. Put the heel of one hand in the center of the chest and the other hand on top. Press hard and fast at 100–120 compressions per minute, at least 2 inches deep, avoiding more than 2.4 inches. Allow full chest recoil. If trained, give 30 compressions followed by 2 breaths. If unable or unwilling to give breaths, continue chest compressions. Turn on the AED as soon as available and follow its spoken instructions. Continue until professionals take over, normal breathing returns or you cannot continue safely. Important. For children or babies open the corresponding child or infant CPR guide. Rescue breaths are especially important for drowning-related and pediatric arrests.",
+      "spokenText": "Call nine one one and get an A E D. Start C P R immediately. Place the person on their back on a firm, flat surface. Put the heel of one hand in the center of the chest and the other hand on top. Press hard and fast at 100 to 120 compressions per minute, at least 2 inches deep, avoiding more than 2.4 inches. Allow full chest recoil. If trained, give 30 compressions followed by 2 breaths. If unable or unwilling to give breaths, continue chest compressions. Turn on the A E D as soon as available and follow its spoken instructions. Continue until professionals take over, normal breathing returns or you cannot continue safely. Important. For children or babies open the corresponding child or infant C P R guide. Rescue breaths are especially important for drowning-related and pediatric arrests.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "child-0",
+      "file": "assets/audio/child-0.mp3",
+      "text": "Call 911 using speakerphone if possible. Start CPR; ask someone to bring an AED. Lay the child face up on a hard, level surface. Place one or both hands on the lower half of the breastbone, depending on the child’s size. Give 30 compressions at 100–120 per minute, about 2 inches deep (one-third of chest depth). Let the chest fully rise between presses. If trained, open the airway with a gentle head tilt and chin lift, pinch the nose and give 2 breaths, each over about one second, enough for visible chest rise. Repeat 30:2. If unable to give breaths, keep compressing. Use an AED when available; follow its prompts. Continue until normal breathing returns, help takes over or you cannot safely continue. Important. If alone without a phone, dispatcher activation timing depends on whether collapse was witnessed; if unwitnessed, give about 2 minutes of CPR before leaving to call and obtain an AED. Use infant CPR for a baby under 1.",
+      "spokenText": "Call nine one one using speakerphone if possible. Start C P R; ask someone to bring an A E D. Lay the child face up on a hard, level surface. Place one or both hands on the lower half of the breastbone, depending on the child’s size. Give 30 compressions at 100 to 120 per minute, about 2 inches deep (one-third of chest depth). Let the chest fully rise between presses. If trained, open the airway with a gentle head tilt and chin lift, pinch the nose and give 2 breaths, each over about one second, enough for visible chest rise. Repeat thirty compressions to two breaths. If unable to give breaths, keep compressing. Use an A E D when available; follow its prompts. Continue until normal breathing returns, help takes over or you cannot safely continue. Important. If alone without a phone, dispatcher activation timing depends on whether collapse was witnessed; if unwitnessed, give about 2 minutes of C P R before leaving to call and obtain an A E D. Use infant C P R for a baby under 1.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "bleed-0",
+      "file": "assets/audio/bleed-0.mp3",
+      "text": "Call 911 and apply firm pressure immediately. Wear gloves or use a barrier if possible. Locate the source of bleeding. Press firmly and continuously with gauze or clean cloth. If an object is stuck in the wound, press around it, not on it. For life-threatening bleeding from an arm or leg, apply a manufactured tourniquet if available and trained; follow dispatcher or device instructions. Keep the person warm and monitor breathing and responsiveness until help arrives. Important. Do not remove an embedded object; press around it. Do not loosen an applied tourniquet.",
+      "spokenText": "Call nine one one and apply firm pressure immediately. Wear gloves or use a barrier if possible. Locate the source of bleeding. Press firmly and continuously with gauze or clean cloth. If an object is stuck in the wound, press around it, not on it. For life-threatening bleeding from an arm or leg, apply a manufactured tourniquet if available and trained; follow dispatcher or device instructions. Keep the person warm and monitor breathing and responsiveness until help arrives. Important. Do not remove an embedded object; press around it. Do not loosen an applied tourniquet.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "choke-0",
+      "file": "assets/audio/choke-0.mp3",
+      "text": "For severe choking, call 911 or have someone call. If coughing forcefully, encourage coughing and watch closely. For severe choking in a conscious person age 1 or older, lean them forward and give up to 5 firm back blows between the shoulder blades. If still blocked, give up to 5 abdominal thrusts with your fist just above the navel and below the breastbone, pulling inward and upward. Use chest thrusts if pregnant or unable to encircle the abdomen. Repeat until the blockage clears or they become unresponsive. If unresponsive, lower safely, begin CPR and follow the dispatcher. Important. Never sweep the mouth blindly. Remove an object only if visible during CPR. Never use abdominal thrusts on babies.",
+      "spokenText": "For severe choking, call nine one one or have someone call. If coughing forcefully, encourage coughing and watch closely. For severe choking in a conscious person age 1 or older, lean them forward and give up to 5 firm back blows between the shoulder blades. If still blocked, give up to 5 abdominal thrusts with your fist just above the navel and below the breastbone, pulling inward and upward. Use chest thrusts if pregnant or unable to encircle the abdomen. Repeat until the blockage clears or they become unresponsive. If unresponsive, lower safely, begin C P R and follow the dispatcher. Important. Never sweep the mouth blindly. Remove an object only if visible during C P R. Never use abdominal thrusts on babies.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "baby-0",
+      "file": "assets/audio/baby-0.mp3",
+      "text": "Call 911 or have someone call. Use infant-specific first aid. If coughing or crying effectively, watch carefully. Otherwise support the head and neck, place the baby face down along your forearm or thigh, head lower than chest. Give up to 5 firm back blows between the shoulder blades. If still blocked, turn face up while supporting head and neck; keep head lower than chest. Give up to 5 chest thrusts with the heel of one hand on the lower half of the breastbone; follow dispatcher instructions. Repeat until clear or unresponsive. If unresponsive, start infant CPR and follow dispatcher guidance. Important. Never use abdominal thrusts on an infant or blindly sweep the mouth.",
+      "spokenText": "Call nine one one or have someone call. Use infant-specific first aid. If coughing or crying effectively, watch carefully. Otherwise support the head and neck, place the baby face down along your forearm or thigh, head lower than chest. Give up to 5 firm back blows between the shoulder blades. If still blocked, turn face up while supporting head and neck; keep head lower than chest. Give up to 5 chest thrusts with the heel of one hand on the lower half of the breastbone; follow dispatcher instructions. Repeat until clear or unresponsive. If unresponsive, start infant C P R and follow dispatcher guidance. Important. Never use abdominal thrusts on an infant or blindly sweep the mouth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "allergy-0",
+      "file": "assets/audio/allergy-0.mp3",
+      "text": "Suspected anaphylaxis: prompt epinephrine and 911. Look for sudden difficulty breathing, throat or tongue swelling, faintness or other signs of severe allergy. Help the person use their prescribed epinephrine immediately, or administer it if trained and permitted; follow product instructions. Have someone call 911. Important. Do not wait for a rash or substitute an antihistamine for epinephrine. Seek emergency care even if symptoms improve.",
+      "spokenText": "Suspected anaphylaxis: prompt epinephrine and nine one one. Look for sudden difficulty breathing, throat or tongue swelling, faintness or other signs of severe allergy. Help the person use their prescribed epinephrine immediately, or administer it if trained and permitted; follow product instructions. Have someone call nine one one. Important. Do not wait for a rash or substitute an antihistamine for epinephrine. Seek emergency care even if symptoms improve.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "allergy-1",
+      "file": "assets/audio/allergy-1.mp3",
+      "text": "Suspected anaphylaxis: prompt epinephrine and 911. Monitor closely and follow the dispatcher for positioning and further care. If unresponsive and not breathing normally, begin CPR and use an AED. Important. Do not wait for a rash or substitute an antihistamine for epinephrine. Seek emergency care even if symptoms improve.",
+      "spokenText": "Suspected anaphylaxis: prompt epinephrine and nine one one. Monitor closely and follow the dispatcher for positioning and further care. If unresponsive and not breathing normally, begin C P R and use an A E D. Important. Do not wait for a rash or substitute an antihistamine for epinephrine. Seek emergency care even if symptoms improve.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "stroke-0",
+      "file": "assets/audio/stroke-0.mp3",
+      "text": "Call 911 immediately, even if symptoms resolve. FACE: Ask the person to smile. Look for one-sided drooping. ARMS: Ask them to lift both arms. Look for one arm drifting downward. SPEECH: Ask them to repeat a simple sentence. Listen for slurring or unusual speech. TIME: Note when symptoms started or when they were last known well. Share this with EMS and monitor breathing. Important. Do not delay calling to complete a self-test. Do not give food, drink or medication unless directed by emergency professionals.",
+      "spokenText": "Call nine one one immediately, even if symptoms resolve. FACE: Ask the person to smile. Look for one-sided drooping. ARMS: Ask them to lift both arms. Look for one arm drifting downward. SPEECH: Ask them to repeat a simple sentence. Listen for slurring or unusual speech. TIME: Note when symptoms started or when they were last known well. Share this with EMS and monitor breathing. Important. Do not delay calling to complete a self-test. Do not give food, drink or medication unless directed by emergency professionals.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "poison-0",
+      "file": "assets/audio/poison-0.mp3",
+      "text": "Call 911 if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Avoid exposing yourself. Move to fresh air for fumes if safe. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "spokenText": "Call nine one one if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Avoid exposing yourself. Move to fresh air for fumes if safe. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "poison-1",
+      "file": "assets/audio/poison-1.mp3",
+      "text": "Call 911 if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Call U.S. Poison Control at 1-800-222-1222 for individualized guidance. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "spokenText": "Call nine one one if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Call U.S. Poison Control at one eight hundred, two two two, one two two two for individualized guidance. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "poison-2",
+      "file": "assets/audio/poison-2.mp3",
+      "text": "Call 911 if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Have the product, amount and time available if possible. Follow the specialist’s directions. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "spokenText": "Call nine one one if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. Have the product, amount and time available if possible. Follow the specialist’s directions. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "poison-3",
+      "file": "assets/audio/poison-3.mp3",
+      "text": "Call 911 if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. For eye or skin exposure, promptly rinse with running room-temperature water while arranging expert help. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "spokenText": "Call nine one one if collapsed, seizing, unable to wake or having trouble breathing. Otherwise contact Poison Control now. For eye or skin exposure, promptly rinse with running room-temperature water while arranging expert help. Important. Do not induce vomiting, give home remedies or attempt chemical neutralization.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "infant-0",
+      "file": "assets/audio/infant-0.mp3",
+      "text": "Call 911 using speakerphone if possible. Begin infant CPR; have someone get an AED. Place the infant face up on a firm, level surface. Use the heel of one hand or two thumbs with hands encircling the chest, pressing on the lower half of the breastbone. Give 30 compressions at 100–120 per minute, about 1½ inches deep (one-third of chest depth). Allow complete recoil. If trained, keep the head neutral, lift the chin, cover the infant’s mouth and nose with your mouth and give two gentle one-second breaths, just enough for chest rise. Repeat 30:2. If unable to give breaths, continue compressions. Apply an AED as soon as available; follow its prompts and use pediatric mode/pads if available. Continue until normal breathing returns, help takes over or it is unsafe to continue. Important. Do not use adult compression depth. If alone without a phone after unwitnessed collapse, give about 2 minutes of CPR before leaving to call and obtain an AED. Not for resuscitation immediately after birth.",
+      "spokenText": "Call nine one one using speakerphone if possible. Begin infant C P R; have someone get an A E D. Place the infant face up on a firm, level surface. Use the heel of one hand or two thumbs with hands encircling the chest, pressing on the lower half of the breastbone. Give 30 compressions at 100 to 120 per minute, about 1½ inches deep (one-third of chest depth). Allow complete recoil. If trained, keep the head neutral, lift the chin, cover the infant’s mouth and nose with your mouth and give two gentle one-second breaths, just enough for chest rise. Repeat thirty compressions to two breaths. If unable to give breaths, continue compressions. Apply an A E D as soon as available; follow its prompts and use pediatric mode/pads if available. Continue until normal breathing returns, help takes over or it is unsafe to continue. Important. Do not use adult compression depth. If alone without a phone after unwitnessed collapse, give about 2 minutes of C P R before leaving to call and obtain an A E D. Not for resuscitation immediately after birth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "aed-0",
+      "file": "assets/audio/aed-0.mp3",
+      "text": "For a person who will not wake up and is not breathing normally: call 911 and continue CPR while someone prepares the AED. Switch the device on and listen to its instructions. Expose the chest and wipe it dry. Apply pads to bare skin as shown on the device. For a small child or infant, prefer pediatric settings or pads when available; if pads could touch, use front-and-back placement as directed. Connect pads if required. Keep everyone clear while the device checks the heart rhythm. If the device advises a shock, ensure no one is touching the person; follow the shock instructions. Restart CPR immediately after a shock or a no-shock prompt. Follow the AED until professional help takes over. Important. Do not delay CPR to search for equipment. If pediatric pads are unavailable, use adult pads that do not touch. Do not touch the person during analysis or shock.",
+      "spokenText": "For a person who will not wake up and is not breathing normally: call nine one one and continue C P R while someone prepares the A E D. Switch the device on and listen to its instructions. Expose the chest and wipe it dry. Apply pads to bare skin as shown on the device. For a small child or infant, prefer pediatric settings or pads when available; if pads could touch, use front-and-back placement as directed. Connect pads if required. Keep everyone clear while the device checks the heart rhythm. If the device advises a shock, ensure no one is touching the person; follow the shock instructions. Restart C P R immediately after a shock or a no-shock prompt. Follow the A E D until professional help takes over. Important. Do not delay C P R to search for equipment. If pediatric pads are unavailable, use adult pads that do not touch. Do not touch the person during analysis or shock.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heartattack-0",
+      "file": "assets/audio/heartattack-0.mp3",
+      "text": "Call 911 immediately for suspected heart attack. Do not drive yourself. Stop activity. Help the person rest in a comfortable position. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "spokenText": "Call nine one one immediately for suspected heart attack. Do not drive yourself. Stop activity. Help the person rest in a comfortable position. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heartattack-1",
+      "file": "assets/audio/heartattack-1.mp3",
+      "text": "Call 911 immediately for suspected heart attack. Do not drive yourself. Arrange for an AED and stay with the person while emergency help is on the way. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "spokenText": "Call nine one one immediately for suspected heart attack. Do not drive yourself. Arrange for an A E D and stay with the person while emergency help is on the way. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heartattack-2",
+      "file": "assets/audio/heartattack-2.mp3",
+      "text": "Call 911 immediately for suspected heart attack. Do not drive yourself. Follow dispatcher advice about aspirin or the person’s own prescribed medication; do not delay the emergency call. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "spokenText": "Call nine one one immediately for suspected heart attack. Do not drive yourself. Follow dispatcher advice about aspirin or the person’s own prescribed medication; do not delay the emergency call. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heartattack-3",
+      "file": "assets/audio/heartattack-3.mp3",
+      "text": "Call 911 immediately for suspected heart attack. Do not drive yourself. Watch for collapse or abnormal breathing. If unresponsive and not breathing normally, begin CPR and use an AED. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "spokenText": "Call nine one one immediately for suspected heart attack. Do not drive yourself. Watch for collapse or abnormal breathing. If unresponsive and not breathing normally, begin C P R and use an A E D. Important. Symptoms can be subtle or occur without obvious chest pain. Do not try to diagnose a heart attack or wait for symptoms to pass.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "seizure-0",
+      "file": "assets/audio/seizure-0.mp3",
+      "text": "Call 911 if this is a first seizure, it lasts 5 minutes or longer, repeats before recovery, occurs in water, causes injury, or breathing or recovery is impaired. Also call for a baby under 6 months, pregnancy, diabetes with unconsciousness, or if unsure. Note when the seizure starts. Stay nearby and clear dangerous objects away. Protect the head with something soft. Loosen tight clothing around the neck. If safe, gently turn the person onto their side; do not force movement. Important. Never restrain the person, put anything in their mouth or offer food or drink before they are fully alert. If uncertain, call 911.",
+      "spokenText": "Call nine one one if this is a first seizure, it lasts 5 minutes or longer, repeats before recovery, occurs in water, causes injury, or breathing or recovery is impaired. Also call for a baby under 6 months, pregnancy, diabetes with unconsciousness, or if unsure. Note when the seizure starts. Stay nearby and clear dangerous objects away. Protect the head with something soft. Loosen tight clothing around the neck. If safe, gently turn the person onto their side; do not force movement. Important. Never restrain the person, put anything in their mouth or offer food or drink before they are fully alert. If uncertain, call nine one one.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "seizure-1",
+      "file": "assets/audio/seizure-1.mp3",
+      "text": "Call 911 if this is a first seizure, it lasts 5 minutes or longer, repeats before recovery, occurs in water, causes injury, or breathing or recovery is impaired. Also call for a baby under 6 months, pregnancy, diabetes with unconsciousness, or if unsure. After shaking stops, check breathing and responsiveness. If not breathing normally, start CPR and use an AED. If breathing but not fully awake, keep on their side if safe. Stay until they recover or help arrives. Follow any established emergency care plan and dispatcher instructions. Important. Never restrain the person, put anything in their mouth or offer food or drink before they are fully alert. If uncertain, call 911.",
+      "spokenText": "Call nine one one if this is a first seizure, it lasts 5 minutes or longer, repeats before recovery, occurs in water, causes injury, or breathing or recovery is impaired. Also call for a baby under 6 months, pregnancy, diabetes with unconsciousness, or if unsure. After shaking stops, check breathing and responsiveness. If not breathing normally, start C P R and use an A E D. If breathing but not fully awake, keep on their side if safe. Stay until they recover or help arrives. Follow any established emergency care plan and dispatcher instructions. Important. Never restrain the person, put anything in their mouth or offer food or drink before they are fully alert. If uncertain, call nine one one.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "asthma-0",
+      "file": "assets/audio/asthma-0.mp3",
+      "text": "Call 911 for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Help the person sit in a position that makes breathing easier; keep them calm. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "spokenText": "Call nine one one for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Help the person sit in a position that makes breathing easier; keep them calm. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "asthma-1",
+      "file": "assets/audio/asthma-1.mp3",
+      "text": "Call 911 for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Assist with their own quick-relief inhaler or other prescribed rescue medicine according to their care plan or dispatcher guidance. Use their spacer if available. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "spokenText": "Call nine one one for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Assist with their own quick-relief inhaler or other prescribed rescue medicine according to their care plan or dispatcher guidance. Use their spacer if available. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "asthma-2",
+      "file": "assets/audio/asthma-2.mp3",
+      "text": "Call 911 for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Stay with them and watch for worsening breathing, exhaustion or reduced responsiveness. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "spokenText": "Call nine one one for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. Stay with them and watch for worsening breathing, exhaustion or reduced responsiveness. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "asthma-3",
+      "file": "assets/audio/asthma-3.mp3",
+      "text": "Call 911 for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. If they become unresponsive and are not breathing normally, begin CPR and use an AED. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "spokenText": "Call nine one one for severe breathing trouble, inability to speak normally, or symptoms not improving with the prescribed rescue medicine. If they become unresponsive and are not breathing normally, begin C P R and use an A E D. Important. Do not assume all breathing trouble is asthma. Do not delay emergency help while looking for medicine or waiting for improvement.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "diabetes-0",
+      "file": "assets/audio/diabetes-0.mp3",
+      "text": "Call 911 for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. If possible, ask about diabetes and help check blood glucose without delaying emergency care. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "spokenText": "Call nine one one for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. If possible, ask about diabetes and help check blood glucose without delaying emergency care. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "diabetes-1",
+      "file": "assets/audio/diabetes-1.mp3",
+      "text": "Call 911 for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. For known or suspected low blood sugar in someone fully awake and able to swallow, help them take fast-acting glucose according to their diabetes plan. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "spokenText": "Call nine one one for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. For known or suspected low blood sugar in someone fully awake and able to swallow, help them take fast-acting glucose according to their diabetes plan. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "diabetes-2",
+      "file": "assets/audio/diabetes-2.mp3",
+      "text": "Call 911 for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. A common adult approach is 15 grams of fast-acting carbohydrate, then recheck after 15 minutes and repeat if still low. Children may need a different amount; follow their plan. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "spokenText": "Call nine one one for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. A common adult approach is 15 grams of fast-acting carbohydrate, then recheck after 15 minutes and repeat if still low. Children may need a different amount; follow their plan. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "diabetes-3",
+      "file": "assets/audio/diabetes-3.mp3",
+      "text": "Call 911 for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. For severe suspected low blood sugar, assist with prescribed glucagon only if trained and permitted; obtain emergency help. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "spokenText": "Call nine one one for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. For severe suspected low blood sugar, assist with prescribed glucagon only if trained and permitted; obtain emergency help. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "diabetes-4",
+      "file": "assets/audio/diabetes-4.mp3",
+      "text": "Call 911 for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. If unconscious but breathing normally, use a safe side position. If not breathing normally, begin CPR and use an AED. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "spokenText": "Call nine one one for severe confusion, seizure, unconsciousness, abnormal breathing or inability to swallow safely. If unconscious but breathing normally, use a safe side position. If not breathing normally, begin C P R and use an A E D. Important. Never give anything by mouth if swallowing is unsafe. Do not give insulin based on symptoms alone. Very high blood sugar with vomiting or deep rapid breathing also needs emergency assessment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "drowning-0",
+      "file": "assets/audio/drowning-0.mp3",
+      "text": "Call 911. Do not enter dangerous water; reach or throw flotation from safety. Get the person out of the water only if it is safe. Ask for an AED and emergency help. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay CPR to obtain equipment.",
+      "spokenText": "Call nine one one. Do not enter dangerous water; reach or throw flotation from safety. Get the person out of the water only if it is safe. Ask for an A E D and emergency help. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay C P R to obtain equipment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "drowning-1",
+      "file": "assets/audio/drowning-1.mp3",
+      "text": "Call 911. Do not enter dangerous water; reach or throw flotation from safety. Check responsiveness and normal breathing. If unresponsive and not breathing normally, begin CPR with rescue breaths if trained. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay CPR to obtain equipment.",
+      "spokenText": "Call nine one one. Do not enter dangerous water; reach or throw flotation from safety. Check responsiveness and normal breathing. If unresponsive and not breathing normally, begin C P R with rescue breaths if trained. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay C P R to obtain equipment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "drowning-2",
+      "file": "assets/audio/drowning-2.mp3",
+      "text": "Call 911. Do not enter dangerous water; reach or throw flotation from safety. A trained rescuer may start with two breaths and then give 30 compressions and two breaths repeatedly; follow age-specific CPR and dispatcher guidance. If unable to provide breaths, begin compressions immediately. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay CPR to obtain equipment.",
+      "spokenText": "Call nine one one. Do not enter dangerous water; reach or throw flotation from safety. A trained rescuer may start with two breaths and then give 30 compressions and two breaths repeatedly; follow age-specific C P R and dispatcher guidance. If unable to provide breaths, begin compressions immediately. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay C P R to obtain equipment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "drowning-3",
+      "file": "assets/audio/drowning-3.mp3",
+      "text": "Call 911. Do not enter dangerous water; reach or throw flotation from safety. Use an AED as soon as possible after CPR begins; dry the chest before applying pads. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay CPR to obtain equipment.",
+      "spokenText": "Call nine one one. Do not enter dangerous water; reach or throw flotation from safety. Use an A E D as soon as possible after C P R begins; dry the chest before applying pads. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay C P R to obtain equipment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "drowning-4",
+      "file": "assets/audio/drowning-4.mp3",
+      "text": "Call 911. Do not enter dangerous water; reach or throw flotation from safety. If breathing normally, monitor closely, keep warm and seek emergency medical assessment after a drowning event. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay CPR to obtain equipment.",
+      "spokenText": "Call nine one one. Do not enter dangerous water; reach or throw flotation from safety. If breathing normally, monitor closely, keep warm and seek emergency medical assessment after a drowning event. Important. Do not attempt to drain water from the lungs with abdominal thrusts; do not delay C P R to obtain equipment.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "shock-0",
+      "file": "assets/audio/shock-0.mp3",
+      "text": "Call 911 for suspected medical shock; treat the underlying emergency if safe. Control severe external bleeding or give other appropriate emergency care within your training. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "spokenText": "Call nine one one for suspected medical shock; treat the underlying emergency if safe. Control severe external bleeding or give other appropriate emergency care within your training. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "shock-1",
+      "file": "assets/audio/shock-1.mp3",
+      "text": "Call 911 for suspected medical shock; treat the underlying emergency if safe. Help the person lie on their back if tolerated and there is no reason to avoid moving them. Let breathing comfort and injury precautions guide positioning. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "spokenText": "Call nine one one for suspected medical shock; treat the underlying emergency if safe. Help the person lie on their back if tolerated and there is no reason to avoid moving them. Let breathing comfort and injury precautions guide positioning. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "shock-2",
+      "file": "assets/audio/shock-2.mp3",
+      "text": "Call 911 for suspected medical shock; treat the underlying emergency if safe. Keep them comfortably warm and reassure them. If vomiting or not fully alert but breathing, protect the airway with a side position when safe. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "spokenText": "Call nine one one for suspected medical shock; treat the underlying emergency if safe. Keep them comfortably warm and reassure them. If vomiting or not fully alert but breathing, protect the airway with a side position when safe. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "shock-3",
+      "file": "assets/audio/shock-3.mp3",
+      "text": "Call 911 for suspected medical shock; treat the underlying emergency if safe. Watch breathing and responsiveness until help arrives. Begin CPR and use an AED if unresponsive and not breathing normally. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "spokenText": "Call nine one one for suspected medical shock; treat the underlying emergency if safe. Watch breathing and responsiveness until help arrives. Begin C P R and use an A E D if unresponsive and not breathing normally. Important. Do not give food or drink. Avoid unnecessary movement if a spine injury is suspected; follow dispatcher instructions. Medical shock is not the same as emotional upset.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "thermal-0",
+      "file": "assets/audio/thermal-0.mp3",
+      "text": "Call 911 for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Stop contact with the heat source without endangering yourself. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "spokenText": "Call nine one one for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Stop contact with the heat source without endangering yourself. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "thermal-1",
+      "file": "assets/audio/thermal-1.mp3",
+      "text": "Call 911 for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Cool the affected skin promptly under clean, cool running water for 5–20 minutes. Keep the rest of the person warm, especially children. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "spokenText": "Call nine one one for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Cool the affected skin promptly under clean, cool running water for 5 to 20 minutes. Keep the rest of the person warm, especially children. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "thermal-2",
+      "file": "assets/audio/thermal-2.mp3",
+      "text": "Call 911 for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Remove loose jewelry and clothing near the injury before swelling increases; leave anything stuck to skin in place. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "spokenText": "Call nine one one for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. Remove loose jewelry and clothing near the injury before swelling increases; leave anything stuck to skin in place. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "thermal-3",
+      "file": "assets/audio/thermal-3.mp3",
+      "text": "Call 911 for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. After cooling, loosely protect the area with a clean, nonstick dressing. Seek medical care for blistering or concerning burns; monitor breathing. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "spokenText": "Call nine one one for deep, extensive or circumferential burns, breathing difficulty, smoke inhalation or other severe injury. Seek urgent evaluation for burns on the face, hands, feet, joints or genitals, and burns in young children. After cooling, loosely protect the area with a clean, nonstick dressing. Seek medical care for blistering or concerning burns; monitor breathing. Important. Do not apply ice directly, butter or household remedies. Do not break blisters or peel away stuck material.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "chemicalburn-0",
+      "file": "assets/audio/chemicalburn-0.mp3",
+      "text": "Protect yourself. Call 911 for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. Avoid contact with the chemical; use appropriate protective equipment. Do not enter a contaminated area. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "spokenText": "Protect yourself. Call nine one one for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. Avoid contact with the chemical; use appropriate protective equipment. Do not enter a contaminated area. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "chemicalburn-1",
+      "file": "assets/audio/chemicalburn-1.mp3",
+      "text": "Protect yourself. Call 911 for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. If safe, remove contaminated clothing and jewelry. Carefully brush loose dry chemical off skin before rinsing; avoid spreading it. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "spokenText": "Protect yourself. Call nine one one for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. If safe, remove contaminated clothing and jewelry. Carefully brush loose dry chemical off skin before rinsing; avoid spreading it. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "chemicalburn-2",
+      "file": "assets/audio/chemicalburn-2.mp3",
+      "text": "Protect yourself. Call 911 for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. Rinse exposed skin with plenty of clean, room-temperature running water for at least 15 minutes, unless trained responders give different substance-specific directions. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "spokenText": "Protect yourself. Call nine one one for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. Rinse exposed skin with plenty of clean, room-temperature running water for at least 15 minutes, unless trained responders give different substance-specific directions. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "chemicalburn-3",
+      "file": "assets/audio/chemicalburn-3.mp3",
+      "text": "Protect yourself. Call 911 for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. For chemical exposure to an eye, use the eye injury guide and start flushing immediately. Have someone call 911 and Poison Control while rinsing. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "spokenText": "Protect yourself. Call nine one one for a chemical burn, serious exposure or breathing trouble. Begin safe decontamination immediately; Poison Control can provide substance-specific advice. For chemical exposure to an eye, use the eye injury guide and start flushing immediately. Have someone call nine one one and Poison Control while rinsing. Important. Do not try to neutralize acids or alkalis with another chemical. Do not put creams on the area. Follow emergency responders’ instructions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "electrical-0",
+      "file": "assets/audio/electrical-0.mp3",
+      "text": "Call 911 for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Disconnect the power only if it is safe. Stay away from fallen power lines; wait for professional clearance. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "spokenText": "Call nine one one for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Disconnect the power only if it is safe. Stay away from fallen power lines; wait for professional clearance. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "electrical-1",
+      "file": "assets/audio/electrical-1.mp3",
+      "text": "Call 911 for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Once the scene is safe, check responsiveness and breathing. Begin CPR and use an AED if the person is not breathing normally and is unresponsive. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "spokenText": "Call nine one one for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Once the scene is safe, check responsiveness and breathing. Begin C P R and use an A E D if the person is not breathing normally and is unresponsive. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "electrical-2",
+      "file": "assets/audio/electrical-2.mp3",
+      "text": "Call 911 for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. For visible burns, use cool clean running water if safe, without delaying lifesaving care. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "spokenText": "Call nine one one for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. For visible burns, use cool clean running water if safe, without delaying lifesaving care. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "electrical-3",
+      "file": "assets/audio/electrical-3.mp3",
+      "text": "Call 911 for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Monitor for breathing changes and shock. Obtain professional medical advice after an electrical injury, even if the skin looks normal. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "spokenText": "Call nine one one for electrical burns, high-voltage injury, lightning injury, loss of consciousness or other serious symptoms. Do not approach a live electrical source. Monitor for breathing changes and shock. Obtain professional medical advice after an electrical injury, even if the skin looks normal. Important. Electrical injuries may damage deeper tissue or affect the heart without a large visible burn. Do not touch someone still in contact with electricity.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "fracture-0",
+      "file": "assets/audio/fracture-0.mp3",
+      "text": "Call 911 for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. Keep the injured area still in the position found. Support it gently if this does not require moving it. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "spokenText": "Call nine one one for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. Keep the injured area still in the position found. Support it gently if this does not require moving it. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "fracture-1",
+      "file": "assets/audio/fracture-1.mp3",
+      "text": "Call 911 for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. For a closed injury, use a cold pack wrapped in cloth for up to 20 minutes. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "spokenText": "Call nine one one for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. For a closed injury, use a cold pack wrapped in cloth for up to 20 minutes. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "fracture-2",
+      "file": "assets/audio/fracture-2.mp3",
+      "text": "Call 911 for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. If bleeding, control it with clean dressings and pressure around exposed bone; do not push bone back inside. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "spokenText": "Call nine one one for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. If bleeding, control it with clean dressings and pressure around exposed bone; do not push bone back inside. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "fracture-3",
+      "file": "assets/audio/fracture-3.mp3",
+      "text": "Call 911 for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. Arrange prompt medical evaluation even if the person can move the limb. Watch for changes in circulation, sensation or breathing. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "spokenText": "Call nine one one for major trauma, visible deformity, bone through skin, serious bleeding, numb or cold limb, severe pain with inability to move, or unsafe transport. Arrange prompt medical evaluation even if the person can move the limb. Watch for changes in circulation, sensation or breathing. Important. Do not straighten a limb, reset a joint or test movement. A person can sometimes walk on a fracture.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "sprain-0",
+      "file": "assets/audio/sprain-0.mp3",
+      "text": "Seek medical evaluation for persistent or significant symptoms; call 911 for major trauma, deformity, numbness, a cold limb or unsafe transport. Stop the activity and rest the area in a comfortable position. Treat uncertain injuries as possible fractures. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "spokenText": "Seek medical evaluation for persistent or significant symptoms; call nine one one for major trauma, deformity, numbness, a cold limb or unsafe transport. Stop the activity and rest the area in a comfortable position. Treat uncertain injuries as possible fractures. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "sprain-1",
+      "file": "assets/audio/sprain-1.mp3",
+      "text": "Seek medical evaluation for persistent or significant symptoms; call 911 for major trauma, deformity, numbness, a cold limb or unsafe transport. Place a cloth-wrapped cold pack on closed skin for no more than 20 minutes; wait at least 20 minutes before repeating. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "spokenText": "Seek medical evaluation for persistent or significant symptoms; call nine one one for major trauma, deformity, numbness, a cold limb or unsafe transport. Place a cloth-wrapped cold pack on closed skin for no more than 20 minutes; wait at least 20 minutes before repeating. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "sprain-2",
+      "file": "assets/audio/sprain-2.mp3",
+      "text": "Seek medical evaluation for persistent or significant symptoms; call 911 for major trauma, deformity, numbness, a cold limb or unsafe transport. Avoid painful movement and weight-bearing. Check for changes in color, feeling and temperature beyond the injury. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "spokenText": "Seek medical evaluation for persistent or significant symptoms; call nine one one for major trauma, deformity, numbness, a cold limb or unsafe transport. Avoid painful movement and weight-bearing. Check for changes in color, feeling and temperature beyond the injury. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "sprain-3",
+      "file": "assets/audio/sprain-3.mp3",
+      "text": "Seek medical evaluation for persistent or significant symptoms; call 911 for major trauma, deformity, numbness, a cold limb or unsafe transport. Get medical advice if pain, swelling or difficulty using the area persists or worsens. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "spokenText": "Seek medical evaluation for persistent or significant symptoms; call nine one one for major trauma, deformity, numbness, a cold limb or unsafe transport. Get medical advice if pain, swelling or difficulty using the area persists or worsens. Important. Do not apply ice directly to bare skin. Do not force stretching or return to sports while an injury is unresolved.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "cut-0",
+      "file": "assets/audio/cut-0.mp3",
+      "text": "Call 911 for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Wash hands and use gloves if available. Stop bleeding with steady direct pressure using clean material. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "spokenText": "Call nine one one for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Wash hands and use gloves if available. Stop bleeding with steady direct pressure using clean material. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "cut-1",
+      "file": "assets/audio/cut-1.mp3",
+      "text": "Call 911 for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. For a minor wound once bleeding is controlled, rinse with clean running water and gently wash with mild soap. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "spokenText": "Call nine one one for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. For a minor wound once bleeding is controlled, rinse with clean running water and gently wash with mild soap. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "cut-2",
+      "file": "assets/audio/cut-2.mp3",
+      "text": "Call 911 for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Cover with a clean dressing that will not stick. Replace it if wet or dirty. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "spokenText": "Call nine one one for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Cover with a clean dressing that will not stick. Replace it if wet or dirty. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "cut-3",
+      "file": "assets/audio/cut-3.mp3",
+      "text": "Call 911 for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Seek medical advice for signs of infection, deep wounds, bites or uncertain tetanus vaccination. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "spokenText": "Call nine one one for severe or uncontrolled bleeding or serious injury. Deep, gaping, dirty or facial wounds need prompt professional assessment. Seek medical advice for signs of infection, deep wounds, bites or uncertain tetanus vaccination. Important. Do not probe a wound or remove deeply embedded material. Severe bleeding needs immediate care, not prolonged cleaning.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "puncture-0",
+      "file": "assets/audio/puncture-0.mp3",
+      "text": "Call 911 for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Use gloves if available and control bleeding. For a deeply embedded object, apply pressure around it and pad around it without pushing it farther in. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "spokenText": "Call nine one one for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Use gloves if available and control bleeding. For a deeply embedded object, apply pressure around it and pad around it without pushing it farther in. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "puncture-1",
+      "file": "assets/audio/puncture-1.mp3",
+      "text": "Call 911 for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Leave deeply lodged objects in place for trained medical personnel. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "spokenText": "Call nine one one for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Leave deeply lodged objects in place for trained medical personnel. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "puncture-2",
+      "file": "assets/audio/puncture-2.mp3",
+      "text": "Call 911 for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. For a minor puncture with no retained object, rinse under clean running water for about five minutes and gently wash. Cover with a clean dressing. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "spokenText": "Call nine one one for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. For a minor puncture with no retained object, rinse under clean running water for about five minutes and gently wash. Cover with a clean dressing. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "puncture-3",
+      "file": "assets/audio/puncture-3.mp3",
+      "text": "Call 911 for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Ask a clinician promptly about tetanus prevention, infection risk and any retained material. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "spokenText": "Call nine one one for major wounds, severe bleeding, impalement or serious injury. Get prompt medical care for deep, dirty or bite punctures and retained objects. Ask a clinician promptly about tetanus prevention, infection risk and any retained material. Important. Do not dig into the wound or pull out an impaled object. A small surface opening can hide a deep injury.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "concuss-0",
+      "file": "assets/audio/concuss-0.mp3",
+      "text": "Call 911 for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. Remove the person from activity immediately after a possible concussion. If neck or spine injury is suspected, keep them still and call 911. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "spokenText": "Call nine one one for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. Remove the person from activity immediately after a possible concussion. If neck or spine injury is suspected, keep them still and call nine one one. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "concuss-1",
+      "file": "assets/audio/concuss-1.mp3",
+      "text": "Call 911 for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. Observe changes in alertness, balance, memory, behavior and symptoms. Arrange evaluation by a healthcare professional. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "spokenText": "Call nine one one for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. Observe changes in alertness, balance, memory, behavior and symptoms. Arrange evaluation by a healthcare professional. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "concuss-2",
+      "file": "assets/audio/concuss-2.mp3",
+      "text": "Call 911 for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. At school, notify the nurse or designated responder and parent/guardian according to the school emergency plan. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "spokenText": "Call nine one one for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. At school, notify the nurse or designated responder and parent/guardian according to the school emergency plan. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "concuss-3",
+      "file": "assets/audio/concuss-3.mp3",
+      "text": "Call 911 for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. No return to sports on the day of a suspected concussion. Follow healthcare guidance for a gradual return to school and activity. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "spokenText": "Call nine one one for worsening severe headache, repeated vomiting, seizure, increasing confusion, weakness, unequal pupils, slurred speech or difficulty waking. Suspected spine injury also needs emergency care. No return to sports on the day of a suspected concussion. Follow healthcare guidance for a gradual return to school and activity. Important. Symptoms can appear later. Do not decide that an athlete is safe to play based only on appearance or a short symptom check.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "spinal-0",
+      "file": "assets/audio/spinal-0.mp3",
+      "text": "Call 911 immediately if a serious head, neck or spinal injury is suspected. Ask the person to remain still and answer verbally. Do not ask them to stand or turn their head. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "spokenText": "Call nine one one immediately if a serious head, neck or spinal injury is suspected. Ask the person to remain still and answer verbally. Do not ask them to stand or turn their head. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "spinal-1",
+      "file": "assets/audio/spinal-1.mp3",
+      "text": "Call 911 immediately if a serious head, neck or spinal injury is suspected. Keep them in the position found unless moving is necessary to escape danger, perform CPR, protect the airway or control life-threatening bleeding. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "spokenText": "Call nine one one immediately if a serious head, neck or spinal injury is suspected. Keep them in the position found unless moving is necessary to escape danger, perform C P R, protect the airway or control life-threatening bleeding. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "spinal-2",
+      "file": "assets/audio/spinal-2.mp3",
+      "text": "Call 911 immediately if a serious head, neck or spinal injury is suspected. Leave helmets and child car seats in place unless essential lifesaving care requires removal. Follow dispatcher instructions. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "spokenText": "Call nine one one immediately if a serious head, neck or spinal injury is suspected. Leave helmets and child car seats in place unless essential lifesaving care requires removal. Follow dispatcher instructions. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "spinal-3",
+      "file": "assets/audio/spinal-3.mp3",
+      "text": "Call 911 immediately if a serious head, neck or spinal injury is suspected. Monitor responsiveness and breathing continuously. If unresponsive and not breathing normally, start CPR and use an AED. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "spokenText": "Call nine one one immediately if a serious head, neck or spinal injury is suspected. Monitor responsiveness and breathing continuously. If unresponsive and not breathing normally, start C P R and use an A E D. Important. Do not try to realign the spine or improvise a neck brace. Lifesaving care takes priority over movement precautions.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "nosebleed-0",
+      "file": "assets/audio/nosebleed-0.mp3",
+      "text": "Call 911 for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. If there is no suspected spine injury, sit upright with the head leaning slightly forward. Important. Do not tilt the head back; blood can run into the throat.",
+      "spokenText": "Call nine one one for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. If there is no suspected spine injury, sit upright with the head leaning slightly forward. Important. Do not tilt the head back; blood can run into the throat.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "nosebleed-1",
+      "file": "assets/audio/nosebleed-1.mp3",
+      "text": "Call 911 for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. Pinch the soft part of the nose closed continuously for 10–15 minutes. Breathe through the mouth. Important. Do not tilt the head back; blood can run into the throat.",
+      "spokenText": "Call nine one one for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. Pinch the soft part of the nose closed continuously for 10 to 15 minutes. Breathe through the mouth. Important. Do not tilt the head back; blood can run into the throat.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "nosebleed-2",
+      "file": "assets/audio/nosebleed-2.mp3",
+      "text": "Call 911 for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. Avoid checking the nose repeatedly; allow the pressure time to work. Important. Do not tilt the head back; blood can run into the throat.",
+      "spokenText": "Call nine one one for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. Avoid checking the nose repeatedly; allow the pressure time to work. Important. Do not tilt the head back; blood can run into the throat.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "nosebleed-3",
+      "file": "assets/audio/nosebleed-3.mp3",
+      "text": "Call 911 for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. If bleeding stops, avoid blowing or picking the nose. Seek medical advice for repeated episodes or bleeding concerns, especially with blood thinners. Important. Do not tilt the head back; blood can run into the throat.",
+      "spokenText": "Call nine one one for heavy or spurting bleeding, suspected head or spine injury, breathing difficulty, or bleeding that continues after 15 minutes of steady pressure. If bleeding stops, avoid blowing or picking the nose. Seek medical advice for repeated episodes or bleeding concerns, especially with blood thinners. Important. Do not tilt the head back; blood can run into the throat.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "eye-0",
+      "file": "assets/audio/eye-0.mp3",
+      "text": "Call 911 for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For a chemical splash, begin flushing with clean room-temperature water for at least 15–20 minutes; continue as directed by responders. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "spokenText": "Call nine one one for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For a chemical splash, begin flushing with clean room-temperature water for at least 15 to 20 minutes; continue as directed by responders. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "eye-1",
+      "file": "assets/audio/eye-1.mp3",
+      "text": "Call 911 for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. Tilt the affected eye downward so contaminated water does not flow into the other eye. Remove contact lenses during rinsing if easy to do. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "spokenText": "Call nine one one for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. Tilt the affected eye downward so contaminated water does not flow into the other eye. Remove contact lenses during rinsing if easy to do. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "eye-2",
+      "file": "assets/audio/eye-2.mp3",
+      "text": "Call 911 for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For an embedded object or suspected penetrating injury, do not rinse or press on the eye; obtain emergency care. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "spokenText": "Call nine one one for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For an embedded object or suspected penetrating injury, do not rinse or press on the eye; obtain emergency care. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "eye-3",
+      "file": "assets/audio/eye-3.mp3",
+      "text": "Call 911 for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For persistent irritation after a minor loose particle, arrange medical care; watch for any change in vision. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "spokenText": "Call nine one one for chemical eye injury, penetrating trauma, significant vision changes or severe pain. Start rinsing a chemical splash immediately while help is arranged. For persistent irritation after a minor loose particle, arrange medical care; watch for any change in vision. Important. Do not rub the eye or try to remove an embedded object. Do not use chemical neutralizers. Call Poison Control for exposure-specific guidance.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dental-0",
+      "file": "assets/audio/dental-0.mp3",
+      "text": "Call 911 for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. If safe, use clean gauze to control bleeding. Find the tooth and handle only the crown, not the root. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "spokenText": "Call nine one one for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. If safe, use clean gauze to control bleeding. Find the tooth and handle only the crown, not the root. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dental-1",
+      "file": "assets/audio/dental-1.mp3",
+      "text": "Call 911 for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. For a permanent tooth, if the person is alert, cooperative and there is no aspiration risk, immediate gentle replacement may help. Do not force it; ask a dentist if uncertain. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "spokenText": "Call nine one one for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. For a permanent tooth, if the person is alert, cooperative and there is no aspiration risk, immediate gentle replacement may help. Do not force it; ask a dentist if uncertain. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dental-2",
+      "file": "assets/audio/dental-2.mp3",
+      "text": "Call 911 for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. If replacement is not possible, keep the tooth moist in a tooth preservation solution or milk. Bring it to the dentist promptly. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "spokenText": "Call nine one one for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. If replacement is not possible, keep the tooth moist in a tooth preservation solution or milk. Bring it to the dentist promptly. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dental-3",
+      "file": "assets/audio/dental-3.mp3",
+      "text": "Call 911 for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. For a baby tooth, do not reinsert it. Contact a dentist urgently. For broken teeth, save fragments and seek dental advice. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "spokenText": "Call nine one one for breathing trouble, severe bleeding or major facial/head trauma. For a knocked-out tooth, seek emergency dental care immediately. For a baby tooth, do not reinsert it. Contact a dentist urgently. For broken teeth, save fragments and seek dental advice. Important. Do not scrub the root, let the tooth dry out or store a tooth in a child’s mouth. Do not reinsert if unsure whether it is a permanent tooth.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatexhaust-0",
+      "file": "assets/audio/heatexhaust-0.mp3",
+      "text": "Get prompt medical advice. Call 911 for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Stop exertion and move to shade or an air-conditioned space. Stay with the person. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "spokenText": "Get prompt medical advice. Call nine one one for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Stop exertion and move to shade or an air-conditioned space. Stay with the person. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatexhaust-1",
+      "file": "assets/audio/heatexhaust-1.mp3",
+      "text": "Get prompt medical advice. Call 911 for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Loosen or remove excess clothing. Cool with wet skin or cloths and moving air. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "spokenText": "Get prompt medical advice. Call nine one one for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Loosen or remove excess clothing. Cool with wet skin or cloths and moving air. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatexhaust-2",
+      "file": "assets/audio/heatexhaust-2.mp3",
+      "text": "Get prompt medical advice. Call 911 for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. If fully alert and able to swallow, offer frequent small sips of cool water or electrolyte drink. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "spokenText": "Get prompt medical advice. Call nine one one for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. If fully alert and able to swallow, offer frequent small sips of cool water or electrolyte drink. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatexhaust-3",
+      "file": "assets/audio/heatexhaust-3.mp3",
+      "text": "Get prompt medical advice. Call 911 for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Check for changes in alertness and breathing. If confused or collapsing, switch immediately to the heatstroke guide and call 911. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "spokenText": "Get prompt medical advice. Call nine one one for confusion, collapse, seizure, abnormal breathing or suspected heatstroke. Seek urgent care if vomiting, worsening or not improving with cooling. Check for changes in alertness and breathing. If confused or collapsing, switch immediately to the heatstroke guide and call nine one one. Important. Do not send them back to sports or work that day. Do not force drinks or give salt tablets.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatstroke-0",
+      "file": "assets/audio/heatstroke-0.mp3",
+      "text": "Call 911 immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Move away from heat and remove unnecessary clothing or sports equipment. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "spokenText": "Call nine one one immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Move away from heat and remove unnecessary clothing or sports equipment. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatstroke-1",
+      "file": "assets/audio/heatstroke-1.mp3",
+      "text": "Call 911 immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Cool rapidly. If safe and enough helpers are available, use supervised cool-to-cold water immersion up to the neck, keeping the airway above water. Do not immerse an unresponsive person if airway safety cannot be maintained. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "spokenText": "Call nine one one immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Cool rapidly. If safe and enough helpers are available, use supervised cool-to-cold water immersion up to the neck, keeping the airway above water. Do not immerse an unresponsive person if airway safety cannot be maintained. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatstroke-2",
+      "file": "assets/audio/heatstroke-2.mp3",
+      "text": "Call 911 immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. If immersion is not safe or available, wet the skin with cool water, fan continuously and use cold wet towels or cold packs. Continue cooling until EMS takes over or directs otherwise. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "spokenText": "Call nine one one immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. If immersion is not safe or available, wet the skin with cool water, fan continuously and use cold wet towels or cold packs. Continue cooling until EMS takes over or directs otherwise. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "heatstroke-3",
+      "file": "assets/audio/heatstroke-3.mp3",
+      "text": "Call 911 immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Watch breathing and responsiveness. If unresponsive and not breathing normally, start CPR and use an AED when available. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "spokenText": "Call nine one one immediately for suspected heatstroke. Start active cooling while someone calls; do not wait for a thermometer or for sweating to stop. Watch breathing and responsiveness. If unresponsive and not breathing normally, start C P R and use an A E D when available. Important. Do not give anything by mouth if mental status is altered. Do not use fever-reducing medication for heatstroke or delay cooling for transportation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "hypothermia-0",
+      "file": "assets/audio/hypothermia-0.mp3",
+      "text": "Call 911 for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Get to shelter and shield from wind, rain and cold ground. Handle gently, particularly if very cold or confused. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "spokenText": "Call nine one one for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Get to shelter and shield from wind, rain and cold ground. Handle gently, particularly if very cold or confused. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "hypothermia-1",
+      "file": "assets/audio/hypothermia-1.mp3",
+      "text": "Call 911 for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Once protected, replace wet clothing with dry layers. Insulate the whole person, including the head, while keeping the airway clear. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "spokenText": "Call nine one one for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Once protected, replace wet clothing with dry layers. Insulate the whole person, including the head, while keeping the airway clear. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "hypothermia-2",
+      "file": "assets/audio/hypothermia-2.mp3",
+      "text": "Call 911 for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Warm the torso gradually with blankets and wrapped warm packs. Keep insulation between packs and skin; check skin frequently. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "spokenText": "Call nine one one for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Warm the torso gradually with blankets and wrapped warm packs. Keep insulation between packs and skin; check skin frequently. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "hypothermia-3",
+      "file": "assets/audio/hypothermia-3.mp3",
+      "text": "Call 911 for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Only if fully awake and swallowing normally, offer a warm nonalcoholic drink. Monitor breathing; if unresponsive and not breathing normally, follow dispatcher CPR and AED instructions. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "spokenText": "Call nine one one for suspected hypothermia, especially confusion, reduced shivering, drowsiness or breathing changes. Arrange rescue rather than waiting for symptoms to worsen. Only if fully awake and swallowing normally, offer a warm nonalcoholic drink. Monitor breathing; if unresponsive and not breathing normally, follow dispatcher C P R and A E D instructions. Important. Do not rub arms or legs, apply direct intense heat, use alcohol or put a moderately/severely hypothermic person in a hot bath. Warm the core before treating frostbite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "frostbite-0",
+      "file": "assets/audio/frostbite-0.mp3",
+      "text": "Arrange prompt medical evaluation for suspected frostbite. Call 911 for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. Move to shelter. Remove wet or constricting items if they can be removed safely. Treat significant hypothermia before the frozen body part. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "spokenText": "Arrange prompt medical evaluation for suspected frostbite. Call nine one one for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. Move to shelter. Remove wet or constricting items if they can be removed safely. Treat significant hypothermia before the frozen body part. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "frostbite-1",
+      "file": "assets/audio/frostbite-1.mp3",
+      "text": "Arrange prompt medical evaluation for suspected frostbite. Call 911 for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. If there is no chance the area will freeze again, thaw in clean water at 99–104°F (37–40°C). If not available, allow gentle thawing in a warm room or against warm skin. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "spokenText": "Arrange prompt medical evaluation for suspected frostbite. Call nine one one for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. If there is no chance the area will freeze again, thaw in clean water at 99 to 104 degrees Fahrenheit (37 to 40 degrees Celsius). If not available, allow gentle thawing in a warm room or against warm skin. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "frostbite-2",
+      "file": "assets/audio/frostbite-2.mp3",
+      "text": "Arrange prompt medical evaluation for suspected frostbite. Call 911 for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. If refreezing is possible, protect the area without intentionally thawing it until safe shelter is reached. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "spokenText": "Arrange prompt medical evaluation for suspected frostbite. Call nine one one for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. If refreezing is possible, protect the area without intentionally thawing it until safe shelter is reached. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "frostbite-3",
+      "file": "assets/audio/frostbite-3.mp3",
+      "text": "Arrange prompt medical evaluation for suspected frostbite. Call 911 for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. After thawing, loosely cover with clean dry bulky dressings; separate affected digits with gauze. Protect from pressure and arrange medical care. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "spokenText": "Arrange prompt medical evaluation for suspected frostbite. Call nine one one for associated hypothermia, extensive injury, blistering, blackened skin or other serious symptoms. After thawing, loosely cover with clean dry bulky dressings; separate affected digits with gauze. Protect from pressure and arrange medical care. Important. Never rub frozen skin, use snow or direct flame, or pop blisters. Avoid walking on frozen feet unless necessary to escape danger.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dehydration-0",
+      "file": "assets/audio/dehydration-0.mp3",
+      "text": "Call 911 for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. Stop activity and rest in a comfortable cool location. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "spokenText": "Call nine one one for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. Stop activity and rest in a comfortable cool location. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dehydration-1",
+      "file": "assets/audio/dehydration-1.mp3",
+      "text": "Call 911 for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. If awake and swallowing normally, sip small amounts of fluid frequently. Use an appropriate oral rehydration solution for fluid loss from vomiting or diarrhea, especially for children; follow pediatric advice. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "spokenText": "Call nine one one for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. If awake and swallowing normally, sip small amounts of fluid frequently. Use an appropriate oral rehydration solution for fluid loss from vomiting or diarrhea, especially for children; follow pediatric advice. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dehydration-2",
+      "file": "assets/audio/dehydration-2.mp3",
+      "text": "Call 911 for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. Monitor urine output, alertness and worsening symptoms. Get medical advice if not improving. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "spokenText": "Call nine one one for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. Monitor urine output, alertness and worsening symptoms. Get medical advice if not improving. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "dehydration-3",
+      "file": "assets/audio/dehydration-3.mp3",
+      "text": "Call 911 for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. If heat exposure is involved, check for heat exhaustion or heatstroke and use the corresponding guide. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "spokenText": "Call nine one one for confusion, fainting, seizure, shock or inability to stay awake. Seek prompt medical care for inability to retain fluids, very little urine, or concerning symptoms in infants or young children. If heat exposure is involved, check for heat exhaustion or heatstroke and use the corresponding guide. Important. Do not force large volumes of water, use salt tablets or give liquids to someone who cannot swallow safely. Too much water can also be dangerous.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "snakebite-0",
+      "file": "assets/audio/snakebite-0.mp3",
+      "text": "Call 911 or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Move away from the snake to a safe location. Keep the person still and calm while arranging emergency care. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "spokenText": "Call nine one one or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Move away from the snake to a safe location. Keep the person still and calm while arranging emergency care. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "snakebite-1",
+      "file": "assets/audio/snakebite-1.mp3",
+      "text": "Call 911 or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Rest the bitten limb in a comfortable neutral position. Remove rings, watches or tight items before swelling increases. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "spokenText": "Call nine one one or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Rest the bitten limb in a comfortable neutral position. Remove rings, watches or tight items before swelling increases. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "snakebite-2",
+      "file": "assets/audio/snakebite-2.mp3",
+      "text": "Call 911 or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. If available, gently clean and cover with a dry clean dressing. Mark the advancing edge of swelling and note the time if this does not delay transport. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "spokenText": "Call nine one one or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. If available, gently clean and cover with a dry clean dressing. Mark the advancing edge of swelling and note the time if this does not delay transport. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "snakebite-3",
+      "file": "assets/audio/snakebite-3.mp3",
+      "text": "Call 911 or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Report the time and circumstances. A photo from a safe distance is optional; never pursue the snake. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "spokenText": "Call nine one one or arrange emergency evacuation immediately for a suspected venomous or unidentified snakebite, even without symptoms. Do not drive yourself. Report the time and circumstances. A photo from a safe distance is optional; never pursue the snake. Important. For U.S. snakebites, do not apply tourniquets or pressure-immobilization bandages, cut or suck the bite, apply ice or give alcohol. Do not wait for symptoms.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "insectsting-0",
+      "file": "assets/audio/insectsting-0.mp3",
+      "text": "Call 911 for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Move away from insects to prevent additional stings. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "spokenText": "Call nine one one for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Move away from insects to prevent additional stings. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "insectsting-1",
+      "file": "assets/audio/insectsting-1.mp3",
+      "text": "Call 911 for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. If a bee stinger remains, remove promptly using whatever safe method is immediately available. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "spokenText": "Call nine one one for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. If a bee stinger remains, remove promptly using whatever safe method is immediately available. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "insectsting-2",
+      "file": "assets/audio/insectsting-2.mp3",
+      "text": "Call 911 for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Clean the skin and apply a wrapped cold pack for short intervals for local discomfort. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "spokenText": "Call nine one one for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Clean the skin and apply a wrapped cold pack for short intervals for local discomfort. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "insectsting-3",
+      "file": "assets/audio/insectsting-3.mp3",
+      "text": "Call 911 for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Watch for symptoms away from the sting site. For suspected anaphylaxis, use the allergy guide, help with epinephrine as appropriate and call 911. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "spokenText": "Call nine one one for breathing difficulty, throat or tongue swelling, faintness or other signs of anaphylaxis. Seek urgent advice for numerous stings or stings inside the mouth. Watch for symptoms away from the sting site. For suspected anaphylaxis, use the allergy guide, help with epinephrine as appropriate and call nine one one. Important. Do not delay epinephrine or emergency care to try an antihistamine when anaphylaxis is suspected.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "tickbite-0",
+      "file": "assets/audio/tickbite-0.mp3",
+      "text": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. With fine-point tweezers, grasp the tick as near the skin as possible. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "spokenText": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. With fine-point tweezers, grasp the tick as near the skin as possible. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "tickbite-1",
+      "file": "assets/audio/tickbite-1.mp3",
+      "text": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Lift directly away using even pressure; avoid twisting or crushing. If small mouthparts stay in the skin and are not easily removed, leave them alone. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "spokenText": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Lift directly away using even pressure; avoid twisting or crushing. If small mouthparts stay in the skin and are not easily removed, leave them alone. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "tickbite-2",
+      "file": "assets/audio/tickbite-2.mp3",
+      "text": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Clean hands and the site. Dispose of the tick safely or save a photo for identification. Record the date and possible exposure location. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "spokenText": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Clean hands and the site. Dispose of the tick safely or save a photo for identification. Record the date and possible exposure location. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "tickbite-3",
+      "file": "assets/audio/tickbite-3.mp3",
+      "text": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Look for additional ticks and seek medical guidance if symptoms develop. Ask promptly about whether preventive antibiotics are indicated. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "spokenText": "Remove an attached tick promptly. Contact a clinician about risk and preventive treatment if appropriate; seek medical care for fever, rash or illness in the following days or weeks. Look for additional ticks and seek medical guidance if symptoms develop. Ask promptly about whether preventive antibiotics are indicated. Important. Do not burn the tick or apply petroleum jelly, nail polish or chemicals to make it detach. Do not wait for a rash before seeking advice about a high-risk bite.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "lightning-0",
+      "file": "assets/audio/lightning-0.mp3",
+      "text": "Call 911 for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Check the scene and avoid additional exposure. A lightning casualty does not retain electrical charge; touching them is safe once the scene is safe. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "spokenText": "Call nine one one for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Check the scene and avoid additional exposure. A lightning casualty does not retain electrical charge; touching them is safe once the scene is safe. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "lightning-1",
+      "file": "assets/audio/lightning-1.mp3",
+      "text": "Call 911 for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Check responsiveness and normal breathing. For someone unresponsive and not breathing normally, begin CPR with breaths if trained, and apply an AED when available. Follow dispatcher guidance. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "spokenText": "Call nine one one for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Check responsiveness and normal breathing. For someone unresponsive and not breathing normally, begin C P R with breaths if trained, and apply an A E D when available. Follow dispatcher guidance. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "lightning-2",
+      "file": "assets/audio/lightning-2.mp3",
+      "text": "Call 911 for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. If breathing normally, assess for burns, trauma and shock; avoid unnecessary movement unless needed to escape danger or provide lifesaving care. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "spokenText": "Call nine one one for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. If breathing normally, assess for burns, trauma and shock; avoid unnecessary movement unless needed to escape danger or provide lifesaving care. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "lightning-3",
+      "file": "assets/audio/lightning-3.mp3",
+      "text": "Call 911 for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Keep the person protected from cold ground and rain, monitor breathing, and stay until responders take over. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "spokenText": "Call nine one one for any lightning strike. Ongoing lightning is a danger to rescuers; move to a safer area if necessary and safe. Keep the person protected from cold ground and rain, monitor breathing, and stay until responders take over. Important. Do not delay care because of fear that the person is electrically charged. Unlike live electrical equipment, the casualty is not a continuing electrical source.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "altitude-0",
+      "file": "assets/audio/altitude-0.mp3",
+      "text": "Call 911 or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. Stop climbing when new altitude-related symptoms appear. Rest, avoid exertion and do not ascend to sleep at a higher elevation. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "spokenText": "Call nine one one or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. Stop climbing when new altitude-related symptoms appear. Rest, avoid exertion and do not ascend to sleep at a higher elevation. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "altitude-1",
+      "file": "assets/audio/altitude-1.mp3",
+      "text": "Call 911 or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. For mild symptoms, stay at the current elevation only if stable and able to rest safely. Descend if symptoms worsen or fail to improve. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "spokenText": "Call nine one one or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. For mild symptoms, stay at the current elevation only if stable and able to rest safely. Descend if symptoms worsen or fail to improve. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "altitude-2",
+      "file": "assets/audio/altitude-2.mp3",
+      "text": "Call 911 or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. For confusion, poor coordination or breathing trouble at rest, descend urgently with assistance and activate rescue. Do not leave the person alone. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "spokenText": "Call nine one one or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. For confusion, poor coordination or breathing trouble at rest, descend urgently with assistance and activate rescue. Do not leave the person alone. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "altitude-3",
+      "file": "assets/audio/altitude-3.mp3",
+      "text": "Call 911 or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. Use supplemental oxygen if available and appropriate to your training. Keep the person warm and monitor breathing until medical help is reached. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "spokenText": "Call nine one one or activate rescue for confusion, inability to walk straight, breathlessness at rest, or severe/worsening symptoms. Arrange immediate safe descent for suspected severe altitude illness. Use supplemental oxygen if available and appropriate to your training. Keep the person warm and monitor breathing until medical help is reached. Important. Do not push through symptoms or delay descent to try remedies. Do not force an ill person to walk if unsafe; seek assisted evacuation.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "normal-breath-0",
+      "file": "assets/audio/normal-breath-0.mp3",
+      "text": "Call 911 now. Keep watching their breathing. If safe and no suspected spine injury, place them on their side. Stay with them. Do not give food or drink. Important. Do not move someone with a suspected spinal injury unless needed for safety, breathing or lifesaving care.",
+      "spokenText": "Call nine one one now. Keep watching their breathing. If safe and no suspected spine injury, place them on their side. Stay with them. Do not give food or drink. Important. Do not move someone with a suspected spinal injury unless needed for safety, breathing or lifesaving care.",
+      "status": "pending clinical and intelligibility review"
+    },
+    {
+      "key": "normal-breath-1",
+      "file": "assets/audio/normal-breath-1.mp3",
+      "text": "Call 911 now. Keep watching their breathing. If breathing stops or becomes abnormal (only gasping), start CPR and use an AED. Follow the dispatcher. Important. Do not move someone with a suspected spinal injury unless needed for safety, breathing or lifesaving care.",
+      "spokenText": "Call nine one one now. Keep watching their breathing. If breathing stops or becomes abnormal (only gasping), start C P R and use an A E D. Follow the dispatcher. Important. Do not move someone with a suspected spinal injury unless needed for safety, breathing or lifesaving care.",
+      "status": "pending clinical and intelligibility review"
+    }
+  ]
+}

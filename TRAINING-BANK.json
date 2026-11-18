@@ -1,0 +1,694 @@
+[
+  {
+    "id": "hall-collapse",
+    "group": "School",
+    "title": "Collapse in the hallway",
+    "scene": "An adult collapses in a clear hallway. They do not respond and are only gasping.",
+    "steps": [
+      {
+        "prompt": "Which emergency choice fits?",
+        "choices": [
+          "Not responding / not breathing normally",
+          "Seizure",
+          "Minor injury"
+        ],
+        "correct": 0,
+        "why": "Gasping is not normal breathing. Get help immediately.",
+        "ref": "adult"
+      },
+      {
+        "prompt": "What should happen now?",
+        "choices": [
+          "Simulate calling 911, send for an AED and begin CPR following dispatcher guidance.",
+          "Wait for the nurse before doing anything.",
+          "Give the person water."
+        ],
+        "correct": 0,
+        "why": "Calling for help and starting CPR must not be delayed. Follow the dispatcher and AED.",
+        "ref": "adult"
+      }
+    ]
+  },
+  {
+    "id": "lunch-choke",
+    "group": "School",
+    "title": "Lunchroom emergency",
+    "scene": "A classmate suddenly cannot speak, cough effectively or breathe while eating.",
+    "steps": [
+      {
+        "prompt": "Which emergency choice fits?",
+        "choices": [
+          "Choking",
+          "Other injury",
+          "Seizure"
+        ],
+        "correct": 0,
+        "why": "Inability to speak or breathe can indicate severe choking.",
+        "ref": "choke"
+      },
+      {
+        "prompt": "Which response should you practice?",
+        "choices": [
+          "Simulate calling 911 and get help. Give age-appropriate back blows and thrusts as instructed.",
+          "Give water to wash the food down.",
+          "Reach into the mouth without seeing an object."
+        ],
+        "correct": 0,
+        "why": "Get emergency help promptly; use appropriate choking first aid, never a blind finger sweep.",
+        "ref": "choke"
+      }
+    ]
+  },
+  {
+    "id": "shop-bleed",
+    "group": "School",
+    "title": "Accident in the workshop",
+    "scene": "A student has a deep arm wound with heavy, continuous bleeding. The machine is switched off and the area is safe.",
+    "steps": [
+      {
+        "prompt": "Which emergency choice fits?",
+        "choices": [
+          "Severe bleeding",
+          "Trouble breathing",
+          "Minor scrape"
+        ],
+        "correct": 0,
+        "why": "Heavy ongoing bleeding can be life-threatening.",
+        "ref": "bleed"
+      },
+      {
+        "prompt": "What is a priority?",
+        "choices": [
+          "Simulate calling 911 and apply firm direct pressure with a dressing if safe.",
+          "Rinse the wound instead of controlling the bleeding.",
+          "Keep lifting the dressing to check every few seconds."
+        ],
+        "correct": 0,
+        "why": "Control life-threatening bleeding promptly and use dispatcher guidance.",
+        "ref": "bleed"
+      }
+    ]
+  },
+  {
+    "id": "class-seizure",
+    "group": "School",
+    "title": "Seizure during class",
+    "scene": "A student falls and begins jerking. An adult says this is their first known seizure.",
+    "steps": [
+      {
+        "prompt": "What should you do first?",
+        "choices": [
+          "Simulate calling 911, clear nearby hazards and get an adult.",
+          "Hold the student down.",
+          "Put an object between their teeth."
+        ],
+        "correct": 0,
+        "why": "A first known seizure needs emergency help. Protect them from nearby hazards without restraint.",
+        "ref": "seizure"
+      },
+      {
+        "prompt": "What information helps responders?",
+        "choices": [
+          "When the seizure started and whether breathing returns to normal.",
+          "The student’s grades.",
+          "How many classmates watched."
+        ],
+        "correct": 0,
+        "why": "Time the seizure if possible and observe breathing; do not delay getting help.",
+        "ref": "seizure"
+      }
+    ]
+  },
+  {
+    "id": "cafeteria-allergy",
+    "group": "School",
+    "title": "Allergic reaction at lunch",
+    "scene": "A student develops swollen lips, difficulty breathing and widespread hives after eating. They have their prescribed auto-injector.",
+    "steps": [
+      {
+        "prompt": "Which emergency category fits?",
+        "choices": [
+          "Trouble breathing / severe allergic reaction",
+          "Minor skin irritation",
+          "Fracture"
+        ],
+        "correct": 0,
+        "why": "Breathing trouble with allergy symptoms may be anaphylaxis.",
+        "ref": "allergy"
+      },
+      {
+        "prompt": "What should happen now?",
+        "choices": [
+          "Simulate calling 911 and get help with their prescribed epinephrine following the device and dispatcher instructions.",
+          "Wait to see if the symptoms pass.",
+          "Offer another bite of food."
+        ],
+        "correct": 0,
+        "why": "Anaphylaxis can progress rapidly; emergency help and prompt prescribed epinephrine are important.",
+        "ref": "allergy"
+      }
+    ]
+  },
+  {
+    "id": "home-aed",
+    "group": "Home",
+    "title": "AED has arrived",
+    "scene": "An adult is unresponsive and not breathing normally. Someone has called emergency services and another person brings an AED.",
+    "steps": [
+      {
+        "prompt": "What should the helper do?",
+        "choices": [
+          "Turn on the AED and follow its prompts.",
+          "Put the AED beside the person and wait.",
+          "Wait until the person wakes up."
+        ],
+        "correct": 0,
+        "why": "The AED guides the user through its operation. Minimize interruptions to CPR.",
+        "ref": "aed"
+      },
+      {
+        "prompt": "The AED says it is analyzing. What now?",
+        "choices": [
+          "Make sure nobody touches the person while it analyzes and follow its instructions.",
+          "Keep a hand on the person to steady them.",
+          "Turn the AED off."
+        ],
+        "correct": 0,
+        "why": "Stay clear when the device analyzes or delivers a shock, then follow its prompts to resume CPR.",
+        "ref": "aed"
+      }
+    ]
+  },
+  {
+    "id": "home-infant",
+    "group": "Home",
+    "title": "Infant choking",
+    "scene": "A baby is awake but cannot cry, cough effectively or breathe.",
+    "steps": [
+      {
+        "prompt": "Which age-specific pathway fits?",
+        "choices": [
+          "Infant choking (under 1 year)",
+          "Adult choking",
+          "Adult CPR"
+        ],
+        "correct": 0,
+        "why": "Infants require a different choking response than older children or adults.",
+        "ref": "pediatric"
+      },
+      {
+        "prompt": "Which technique sequence is appropriate?",
+        "choices": [
+          "Get emergency help and alternate 5 back blows with 5 chest thrusts as instructed.",
+          "Use abdominal thrusts on the baby.",
+          "Try to sweep the mouth even if no object is visible."
+        ],
+        "correct": 0,
+        "why": "Use infant-specific care, not abdominal thrusts or blind finger sweeps. If the infant becomes unresponsive, start CPR as directed.",
+        "ref": "pediatric"
+      }
+    ]
+  },
+  {
+    "id": "home-burn",
+    "group": "Home",
+    "title": "Hot pan burn",
+    "scene": "A small area of an adult’s forearm touches a hot pan. They are awake and breathing normally.",
+    "steps": [
+      {
+        "prompt": "What is the best immediate cooling choice?",
+        "choices": [
+          "Cool, clean running water.",
+          "Ice directly on the burn.",
+          "Butter or cooking oil."
+        ],
+        "correct": 0,
+        "why": "Cool water helps limit thermal injury. Ice and greasy substances are not appropriate initial care.",
+        "ref": "burns"
+      },
+      {
+        "prompt": "What should you do if a burn is large, deep or involves the face?",
+        "choices": [
+          "Get urgent emergency help as appropriate.",
+          "Ignore it because the pain might fade.",
+          "Pop any blisters."
+        ],
+        "correct": 0,
+        "why": "Serious burns require professional evaluation; do not intentionally break blisters.",
+        "ref": "burns"
+      }
+    ]
+  },
+  {
+    "id": "home-poison",
+    "group": "Home",
+    "title": "Unknown medicine",
+    "scene": "A younger child may have swallowed an unknown amount of medicine. They are awake and breathing normally.",
+    "steps": [
+      {
+        "prompt": "Who should an adult contact promptly for expert guidance?",
+        "choices": [
+          "Poison Control (simulated).",
+          "A friend who has taken the medicine.",
+          "Nobody unless symptoms appear."
+        ],
+        "correct": 0,
+        "why": "Poison Control provides case-specific guidance even before symptoms appear. Call 911 for collapse, seizure, trouble breathing or inability to awaken.",
+        "ref": "poison"
+      },
+      {
+        "prompt": "What should you avoid?",
+        "choices": [
+          "Do not make the child vomit.",
+          "Keep the packaging for the adult or specialist.",
+          "Tell an adult what happened."
+        ],
+        "correct": 0,
+        "why": "Inducing vomiting can make poisoning worse. Keep information available for the specialist.",
+        "ref": "poison"
+      }
+    ]
+  },
+  {
+    "id": "home-stroke",
+    "group": "Home",
+    "title": "Sudden changes in speech",
+    "scene": "An older relative suddenly has a drooping face, weak arm and slurred speech.",
+    "steps": [
+      {
+        "prompt": "What is the priority?",
+        "choices": [
+          "Simulate calling 911 for possible stroke.",
+          "Wait until tomorrow.",
+          "Ask them to walk around until it improves."
+        ],
+        "correct": 0,
+        "why": "Sudden face, arm or speech changes are stroke warning signs; get emergency help.",
+        "ref": "stroke"
+      },
+      {
+        "prompt": "What information is especially useful?",
+        "choices": [
+          "When they were last known to be normal.",
+          "What they ate last week.",
+          "How many steps they can walk now."
+        ],
+        "correct": 0,
+        "why": "The last-known-well time can help clinicians choose treatment. Do not delay transport or give food or drink.",
+        "ref": "stroke"
+      }
+    ]
+  },
+  {
+    "id": "sport-head",
+    "group": "Sports",
+    "title": "Hard collision during a game",
+    "scene": "A player is dizzy and has a headache after a collision. They are awake, breathing and have no stated emergency danger signs.",
+    "steps": [
+      {
+        "prompt": "What should happen now?",
+        "choices": [
+          "Remove them from play and tell the coach or adult.",
+          "Let them finish the game.",
+          "Ask them to prove they are fine by running."
+        ],
+        "correct": 0,
+        "why": "A possible concussion requires immediate removal from play and assessment.",
+        "ref": "academyConcussion"
+      },
+      {
+        "prompt": "When may they return to sports?",
+        "choices": [
+          "After appropriate healthcare clearance and a supervised return process.",
+          "As soon as the next match starts.",
+          "Whenever they say they feel tough enough."
+        ],
+        "correct": 0,
+        "why": "Do not return a player with suspected concussion to play that day; follow healthcare guidance.",
+        "ref": "academyConcussion"
+      }
+    ]
+  },
+  {
+    "id": "sport-heat",
+    "group": "Sports",
+    "title": "Confusion on a hot field",
+    "scene": "During outdoor practice, a player becomes very hot and confused.",
+    "steps": [
+      {
+        "prompt": "Which response fits?",
+        "choices": [
+          "Simulate calling 911 for possible heatstroke.",
+          "Wait in the sun until practice ends.",
+          "Tell them to run another lap."
+        ],
+        "correct": 0,
+        "why": "Confusion with heat exposure is an emergency warning sign.",
+        "ref": "academyHeat"
+      },
+      {
+        "prompt": "While help is coming, what is a priority?",
+        "choices": [
+          "Start rapid cooling safely, with adult help and dispatcher guidance.",
+          "Wrap them in a heavy blanket.",
+          "Force them to drink while confused."
+        ],
+        "correct": 0,
+        "why": "Rapid cooling is important. Do not force fluids on someone who is not fully alert.",
+        "ref": "academyHeat"
+      }
+    ]
+  },
+  {
+    "id": "sport-fracture",
+    "group": "Sports",
+    "title": "Injured wrist",
+    "scene": "A player falls and has a very painful, visibly bent wrist.",
+    "steps": [
+      {
+        "prompt": "What should you do?",
+        "choices": [
+          "Get adult and medical help; keep the wrist supported as found.",
+          "Pull it straight.",
+          "Ask them to keep playing."
+        ],
+        "correct": 0,
+        "why": "Do not straighten a suspected fracture. Severe deformity or other danger signs need urgent help.",
+        "ref": "bones"
+      },
+      {
+        "prompt": "Which observation is worth reporting?",
+        "choices": [
+          "Numbness, color change or cold fingers.",
+          "The color of their shoes.",
+          "The final score."
+        ],
+        "correct": 0,
+        "why": "Changes beyond the injury can suggest circulation or nerve problems.",
+        "ref": "bones"
+      }
+    ]
+  },
+  {
+    "id": "sport-asthma",
+    "group": "Sports",
+    "title": "Breathing trouble at an event",
+    "scene": "A participant with asthma is struggling to breathe and cannot speak in full sentences.",
+    "steps": [
+      {
+        "prompt": "Which response should you choose?",
+        "choices": [
+          "Simulate calling 911 and get help for severe breathing difficulty.",
+          "Tell them to lie down and wait alone.",
+          "Ask them to keep exercising."
+        ],
+        "correct": 0,
+        "why": "Severe breathing trouble requires immediate emergency help.",
+        "ref": "asthma"
+      },
+      {
+        "prompt": "What is appropriate while help comes?",
+        "choices": [
+          "Help them use their own prescribed rescue medicine as directed, with adult or dispatcher help.",
+          "Share a random medication.",
+          "Make them run to clear their lungs."
+        ],
+        "correct": 0,
+        "why": "Assist with their prescribed rescue medicine when appropriate; follow their plan and dispatcher guidance.",
+        "ref": "asthma"
+      }
+    ]
+  },
+  {
+    "id": "trail-tick",
+    "group": "Outdoors",
+    "title": "Tick after a hike",
+    "scene": "After a hike, an adult notices an attached tick on their leg.",
+    "steps": [
+      {
+        "prompt": "Which tool is appropriate?",
+        "choices": [
+          "Fine-tipped tweezers.",
+          "A lit match.",
+          "Nail polish."
+        ],
+        "correct": 0,
+        "why": "Remove an attached tick promptly with suitable tweezers.",
+        "ref": "academyTick"
+      },
+      {
+        "prompt": "How should it be removed?",
+        "choices": [
+          "Grip close to the skin and pull upward steadily.",
+          "Twist the tick repeatedly.",
+          "Coat it with petroleum jelly and wait."
+        ],
+        "correct": 0,
+        "why": "Clean the area after removal and seek medical advice for concerning symptoms.",
+        "ref": "academyTick"
+      }
+    ]
+  },
+  {
+    "id": "trail-cold",
+    "group": "Outdoors",
+    "title": "Cold and confused",
+    "scene": "A hiker is wet, very cold, confused and stumbling.",
+    "steps": [
+      {
+        "prompt": "What should you do?",
+        "choices": [
+          "Get emergency help for possible hypothermia.",
+          "Tell them to keep hiking alone.",
+          "Give them an alcoholic drink."
+        ],
+        "correct": 0,
+        "why": "Confusion in the cold can indicate dangerous hypothermia.",
+        "ref": "cold_rc"
+      },
+      {
+        "prompt": "What helps while arranging rescue?",
+        "choices": [
+          "Move to shelter if safe, handle gently and insulate with dry layers.",
+          "Rub the skin vigorously.",
+          "Put bare skin against a very hot surface."
+        ],
+        "correct": 0,
+        "why": "Prevent further heat loss; avoid rough handling and burns.",
+        "ref": "cold_rc"
+      }
+    ]
+  },
+  {
+    "id": "trail-safety",
+    "group": "Outdoors",
+    "title": "Danger near the road",
+    "scene": "You see someone injured beside a road with traffic still moving close to them.",
+    "steps": [
+      {
+        "prompt": "What is the first priority?",
+        "choices": [
+          "Stay safe and get emergency help from a safe location.",
+          "Run into traffic immediately.",
+          "Stand in the traffic lane to film."
+        ],
+        "correct": 0,
+        "why": "Do not enter a dangerous scene or become another casualty.",
+        "ref": "first"
+      },
+      {
+        "prompt": "What should you tell the simulated dispatcher?",
+        "choices": [
+          "Location, hazards, what happened and what you can see.",
+          "Just your favorite hiking trail.",
+          "Hang up before answering questions."
+        ],
+        "correct": 0,
+        "why": "Give a clear location and follow dispatcher instructions.",
+        "ref": "handoff"
+      }
+    ]
+  },
+  {
+    "id": "trail-water",
+    "group": "Outdoors",
+    "title": "Person struggling in water",
+    "scene": "Someone is struggling in deep water. You are on shore and have no rescue training.",
+    "steps": [
+      {
+        "prompt": "How should you help?",
+        "choices": [
+          "Call for trained help; reach or throw a flotation aid from a safe position if possible.",
+          "Jump in without equipment or training.",
+          "Walk away without alerting anyone."
+        ],
+        "correct": 0,
+        "why": "Avoid becoming another drowning victim. Get rescue help promptly.",
+        "ref": "water"
+      },
+      {
+        "prompt": "Once trained rescuers bring an unresponsive nonbreathing person to safety, what matters?",
+        "choices": [
+          "Emergency services, CPR including breaths as trained or dispatcher-guided, and an AED.",
+          "Wait for them to cough before calling.",
+          "Try to drain water by hanging them upside down."
+        ],
+        "correct": 0,
+        "why": "Drowning resuscitation needs rapid emergency response and ventilation as well as compressions.",
+        "ref": "drowning"
+      }
+    ]
+  },
+  {
+    "id": "gear-gloves",
+    "group": "Equipment",
+    "title": "Protective gloves",
+    "scene": "You are selecting supplies for a first-aid kit.",
+    "steps": [
+      {
+        "prompt": "What helps reduce direct contact with blood?",
+        "choices": [
+          "Disposable protective gloves",
+          "A flashlight",
+          "A roll of string"
+        ],
+        "correct": 0,
+        "why": "Use gloves if available, without delaying lifesaving care.",
+        "ref": "first"
+      }
+    ]
+  },
+  {
+    "id": "gear-aed",
+    "group": "Equipment",
+    "title": "Identify an AED",
+    "scene": "A helper asks what equipment to bring for suspected cardiac arrest.",
+    "steps": [
+      {
+        "prompt": "Which device analyzes heart rhythm and may deliver a shock?",
+        "choices": [
+          "Automated external defibrillator (AED)",
+          "Digital thermometer",
+          "Cold pack"
+        ],
+        "correct": 0,
+        "why": "An AED provides prompts and can deliver a shock when indicated.",
+        "ref": "aed"
+      }
+    ]
+  },
+  {
+    "id": "gear-gauze",
+    "group": "Equipment",
+    "title": "Bleeding supplies",
+    "scene": "You are choosing something to apply direct pressure to a wound.",
+    "steps": [
+      {
+        "prompt": "Which item is suitable if available?",
+        "choices": [
+          "Clean gauze or dressing",
+          "A loose bag of ice",
+          "An electrical cable"
+        ],
+        "correct": 0,
+        "why": "A clean dressing can be used for firm direct pressure.",
+        "ref": "bleed"
+      }
+    ]
+  },
+  {
+    "id": "gear-tourniquet",
+    "group": "Equipment",
+    "title": "Recognize a tourniquet",
+    "scene": "You are reviewing bleeding-control equipment with an instructor.",
+    "steps": [
+      {
+        "prompt": "What is a commercial tourniquet intended for?",
+        "choices": [
+          "Life-threatening bleeding from an arm or leg when appropriate.",
+          "A small paper cut.",
+          "A neck wound."
+        ],
+        "correct": 0,
+        "why": "Tourniquets are for appropriate severe limb bleeding. Learn use with certified training and follow dispatcher instructions.",
+        "ref": "bleed"
+      }
+    ]
+  },
+  {
+    "id": "gear-tweezers",
+    "group": "Equipment",
+    "title": "Small tools",
+    "scene": "You are selecting a tool for tick removal practice.",
+    "steps": [
+      {
+        "prompt": "Which item is appropriate?",
+        "choices": [
+          "Fine-tipped tweezers",
+          "A heating pad",
+          "A tourniquet"
+        ],
+        "correct": 0,
+        "why": "Use tweezers to grasp the tick close to the skin.",
+        "ref": "academyTick"
+      }
+    ]
+  },
+  {
+    "id": "gear-cold",
+    "group": "Equipment",
+    "title": "Cold pack",
+    "scene": "A coach wants to apply a cold pack to a closed injury while arranging appropriate care.",
+    "steps": [
+      {
+        "prompt": "What should go between the pack and skin?",
+        "choices": [
+          "A thin dry towel.",
+          "Nothing; apply frozen material directly.",
+          "A layer of hot oil."
+        ],
+        "correct": 0,
+        "why": "A cloth barrier helps protect the skin.",
+        "ref": "bones"
+      }
+    ]
+  },
+  {
+    "id": "gear-blanket",
+    "group": "Equipment",
+    "title": "Emergency blanket",
+    "scene": "You are reviewing a cold-weather kit.",
+    "steps": [
+      {
+        "prompt": "What is a dry blanket useful for?",
+        "choices": [
+          "Reducing further heat loss.",
+          "Treating heatstroke by trapping heat.",
+          "Replacing a call for rescue."
+        ],
+        "correct": 0,
+        "why": "Insulation helps reduce heat loss; emergency care may still be needed.",
+        "ref": "cold_rc"
+      }
+    ]
+  },
+  {
+    "id": "gear-timer",
+    "group": "Equipment",
+    "title": "Time a seizure",
+    "scene": "A teacher is practicing recording events for responders.",
+    "steps": [
+      {
+        "prompt": "Which tool helps record elapsed seizure time?",
+        "choices": [
+          "A stopwatch or timer.",
+          "An AED shock button.",
+          "A thermometer."
+        ],
+        "correct": 0,
+        "why": "Timing helps communicate duration, but never delay care or calling for help to start it.",
+        "ref": "seizure"
+      }
+    ]
+  }
+]

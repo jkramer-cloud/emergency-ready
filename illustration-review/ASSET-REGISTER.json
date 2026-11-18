@@ -1,0 +1,366 @@
+[
+  {
+    "id": "adult-cpr-target",
+    "guide": "adult",
+    "category": "cpr",
+    "title": "Adult CPR • chest landmark",
+    "path": "assets/illustrations/cpr/adult-chest-target.webp",
+    "caption": "Locator diagram only; a trained reviewer must check the chest landmark and any subsequent hand-position artwork.",
+    "alt": "Front view of adult torso with the lower half of the sternum highlighted.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support",
+      "https://guidelines.redcross.org/guidelines-database/cpr-techniques-and-sequence/"
+    ],
+    "scope": "Landmark only; full hand and body-position sequence pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "aed-adult-pads",
+    "guide": "aed",
+    "category": "cpr",
+    "title": "AED • typical adult pad locations",
+    "path": "assets/illustrations/cpr/adult-aed-pad-locations.webp",
+    "caption": "Typical adult front-side placement sketch; device-specific and pediatric positioning are not shown.",
+    "alt": "Adult torso with one pad below the person’s right collarbone and another on the left side below the armpit.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/aed/using-an-aed/aed-steps",
+      "https://guidelines.redcross.org/guidelines-database/defibrillation/"
+    ],
+    "scope": "Typical adult placement only, not pediatric or device-specific placement.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "choke-sequence",
+    "guide": "choke",
+    "category": "choking",
+    "title": "Severe choking • adult or child",
+    "path": "assets/illustrations/choking/adult-child-sequence.webp",
+    "caption": "Sequence for a responsive adult or child with severe choking; special circumstances require chest thrusts.",
+    "alt": "Flow chart alternating five back blows and five abdominal thrusts, then CPR if unresponsive.",
+    "sources": [
+      "https://newsroom.heart.org/facts/cpr-cardiopulmonary-resuscitation-and-updated-guidelines-2025"
+    ],
+    "scope": "Sequence only; photos of correct body and hand placement still pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "infant-choke-sequence",
+    "guide": "baby",
+    "category": "choking",
+    "title": "Severe choking • infant",
+    "path": "assets/illustrations/choking/infant-sequence.webp",
+    "caption": "Sequence for a responsive infant with severe choking; the 2025 AHA uses the heel of one hand for chest thrusts. Technique and positioning artwork is still pending.",
+    "alt": "Flow chart alternating five back blows and five chest thrusts, then CPR if unresponsive.",
+    "sources": [
+      "https://newsroom.heart.org/facts/cpr-cardiopulmonary-resuscitation-and-updated-guidelines-2025"
+    ],
+    "scope": "Sequence only; photos of correct body and hand placement still pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "bleed-pressure",
+    "guide": "bleed",
+    "category": "bleeding",
+    "title": "Severe bleeding • direct pressure",
+    "path": "assets/illustrations/bleeding/direct-pressure.webp",
+    "caption": "Direct-pressure concept; follow emergency guidance and use other bleeding-control methods as appropriate.",
+    "alt": "A dressing sits over a limb; a downward arrow indicates direct pressure onto the dressing.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/bleeding-life-threatening-external"
+    ],
+    "scope": "Direct pressure concept only, not hand positioning or wound-packing.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "bleed-tq",
+    "guide": "bleed",
+    "category": "bleeding",
+    "title": "Tourniquet • limb location concept",
+    "path": "assets/illustrations/bleeding/tourniquet-location.webp",
+    "caption": "The spacing is schematic, not to scale. Location alone is not an application demonstration. Use training, device instructions, and dispatcher guidance.",
+    "alt": "A limb diagram shows a band toward the torso, two to three inches above an injury marker, not on a joint.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/articles/how-to-apply-a-tourniquet",
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "Placement concept only; not a complete tourniquet application guide.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "recovery-check",
+    "guide": "first",
+    "category": "recovery",
+    "title": "Recovery position • decision reminder",
+    "path": "assets/illustrations/recovery/recovery-decision.webp",
+    "caption": "This visual supports recognition only. It is not a demonstration of how to turn a person.",
+    "alt": "Decision chart distinguishes normal breathing and safe movement from suspected injury and abnormal breathing.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/unresponsive-and-breathing-person",
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "Decision aid only; actual side-position sequence pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "tick-removal",
+    "guide": "tickbite",
+    "category": "environmental",
+    "title": "Tick removal • close-up",
+    "path": "assets/illustrations/environmental/tick-removal.webp",
+    "caption": "Grip the tick close to the skin and pull away with steady, even pressure. This is a magnified schematic.",
+    "alt": "Two close-up drawings depict tweezer tips gripping the tick near its mouthparts and pulling it away from the skin.",
+    "sources": [
+      "https://www.cdc.gov/ticks/after-a-tick-bite/"
+    ],
+    "scope": "Tick removal schematic; anatomical and technique review pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "adult-cpr-quality",
+    "guide": "adult",
+    "category": "cpr",
+    "title": "Adult CPR • compression quality",
+    "path": "assets/illustrations/cpr/adult-cpr-quality.webp",
+    "caption": "Use dispatcher guidance and an AED as soon as available.",
+    "alt": "Three pictograms show chest target, clock and hand for recoil.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+    ],
+    "scope": "Target, rate and recoil only; hands and shoulder alignment still need a validated demonstration.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "child-cpr-quality",
+    "guide": "child",
+    "category": "cpr",
+    "title": "Child CPR • key differences",
+    "path": "assets/illustrations/cpr/child-cpr-quality.webp",
+    "caption": "Rescue breaths are important in children; follow dispatcher instructions.",
+    "alt": "Chest, hand and clock pictograms summarize child CPR compression concepts.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support"
+    ],
+    "scope": "Concept only, no compression technique or hand alignment shown.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "infant-cpr-methods",
+    "guide": "infant",
+    "category": "cpr",
+    "title": "Infant CPR • updated techniques",
+    "path": "assets/illustrations/cpr/infant-cpr-methods.webp",
+    "caption": "Use an approved physical demonstration to learn the techniques.",
+    "alt": "Two generic hand icons identify accepted methods and a prohibition icon labels the retired two-finger method.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+      "https://cpr.heart.org/en/training-programs/community-programs/community-resources/infant-cpr"
+    ],
+    "scope": "Technique names only; icons are not placement illustrations. Both actual hand-position images remain pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "aed-pediatric-safety",
+    "guide": "aed",
+    "category": "cpr",
+    "title": "AED • pediatric pad safety",
+    "path": "assets/illustrations/cpr/aed-pediatric-safety.webp",
+    "caption": "Do not delay defibrillation while searching for pediatric pads.",
+    "alt": "AED, separate pads and prohibition sign represent pediatric AED safety.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support",
+      "https://guidelines.redcross.org/arc-2022-highlights/pad-size-and-placement-in-infants-and-children/"
+    ],
+    "scope": "Device and pad recognition; no placement diagram for a specific patient or device.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "infant-choking-safety",
+    "guide": "baby",
+    "category": "choking",
+    "title": "Infant choking • safety reminders",
+    "path": "assets/illustrations/choking/infant-choking-safety.webp",
+    "caption": "Get emergency help; start CPR if the infant becomes unresponsive.",
+    "alt": "Head support, generic hand and prohibition icons accompany infant choking safety reminders.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support"
+    ],
+    "scope": "Safety reminders only; not an anatomical demonstration. Heel-of-hand chest thrust and supported positioning still need validated art.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "adult-choking-safety",
+    "guide": "choke",
+    "category": "choking",
+    "title": "Severe choking • response reminders",
+    "path": "assets/illustrations/choking/adult-choking-safety.webp",
+    "caption": "Begin CPR if the person becomes unresponsive.",
+    "alt": "Phone, hand and prohibition icons accompany choking response reminders.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support",
+      "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support"
+    ],
+    "scope": "Sequence reminders; physical back-blow and thrust positioning still pending.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "recovery-monitor",
+    "guide": "first",
+    "category": "recovery",
+    "title": "Recovery position • monitoring",
+    "path": "assets/illustrations/recovery/recovery-monitor.webp",
+    "caption": "If breathing becomes abnormal or stops, follow dispatcher CPR guidance.",
+    "alt": "Phone, shield and clock depict call, movement precautions and monitoring.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/unresponsive-and-breathing-person",
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "Decision and monitoring only; physical turning sequence not depicted.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "fracture-support",
+    "guide": "fracture",
+    "category": "injury",
+    "title": "Fracture • support and protect",
+    "path": "assets/illustrations/injury/fracture-support.webp",
+    "caption": "Severe injuries, open fractures or loss of circulation need urgent care.",
+    "alt": "An arm rests on a support; prohibition and shield icons reinforce safe movement.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "Simple padded support concept, not prescribed splinting technique.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "epinephrine-recognition",
+    "guide": "allergy",
+    "category": "medical",
+    "title": "Epinephrine • device recognition",
+    "path": "assets/illustrations/medical/epinephrine-recognition.webp",
+    "caption": "Device designs and hold times vary; follow the label and dispatcher.",
+    "alt": "Generic injector, hand and phone pictograms accompany prescribed medication and emergency response reminders.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/allergic-reaction-anaphylaxis"
+    ],
+    "scope": "Generic auto-injector recognition, no actual needle, hand position or timing shown.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "spinal-precautions",
+    "guide": "spinal",
+    "category": "injury",
+    "title": "Possible spinal injury • precautions",
+    "path": "assets/illustrations/injury/spinal-precautions.webp",
+    "caption": "Follow dispatcher instructions if breathing is abnormal.",
+    "alt": "Phone, head and shield pictograms illustrate movement precautions.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "General movement precautions, not a manual stabilization demonstration.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "heatstroke-cooling",
+    "guide": "heatstroke",
+    "category": "environmental",
+    "title": "Heatstroke • cool immediately",
+    "path": "assets/illustrations/environmental/heatstroke-cooling.webp",
+    "caption": "Keep the airway protected; do not force drinks on a confused person.",
+    "alt": "Phone, water droplet and fan depict immediate help and cooling options.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+      "https://www.cdc.gov/niosh/heat-stress/about/illnesses.html"
+    ],
+    "scope": "Cooling methods overview; no immersion posture or supervision technique demonstrated.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "hypothermia-insulation",
+    "guide": "hypothermia",
+    "category": "environmental",
+    "title": "Hypothermia • protect from cold",
+    "path": "assets/illustrations/environmental/hypothermia-insulation.webp",
+    "caption": "Seek emergency help for suspected severe hypothermia.",
+    "alt": "Shield, folded blanket and thermometer depict shelter, insulation and warming.",
+    "sources": [
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines",
+      "https://www.redcross.org/take-a-class/resources/guidelines"
+    ],
+    "scope": "Protective equipment and warming reminders; no positioning or heat-device application technique.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "seizure-protection",
+    "guide": "seizure",
+    "category": "medical",
+    "title": "Seizure • protect and time",
+    "path": "assets/illustrations/medical/seizure-protection.webp",
+    "caption": "Call 911 for a first seizure, breathing trouble or other emergency signs.",
+    "alt": "Cushion, clock and prohibition icons for seizure first aid.",
+    "sources": [
+      "https://www.cdc.gov/epilepsy/first-aid-for-seizures/index.html"
+    ],
+    "scope": "Protective equipment and timing reminders; no physical repositioning demonstration.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  },
+  {
+    "id": "thermal-burn-cooling",
+    "guide": "thermal",
+    "category": "injury",
+    "title": "Thermal burn • cooling",
+    "path": "assets/illustrations/injury/thermal-burn-cooling.webp",
+    "caption": "Seek urgent help for severe, large, deep or high-risk burns.",
+    "alt": "Water drop, prohibition and shield icons illustrate burn cooling and protection.",
+    "sources": [
+      "https://www.redcross.org/take-a-class/resources/learn-first-aid/burns",
+      "https://cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines"
+    ],
+    "scope": "Cooling and dressing concepts only; no wound anatomy, timing or application sequence shown.",
+    "status": "pending",
+    "reviewer": "",
+    "reviewDate": ""
+  }
+]
