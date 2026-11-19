@@ -1,4 +1,4 @@
-# Release gates — RC1
+# Release gates — RC3
 
 All gates below are pending; automated checks are not clinical approval.
 

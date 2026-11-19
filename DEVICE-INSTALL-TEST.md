@@ -9,3 +9,8 @@ Run only with fictional scenarios, outside an emergency. Do not dial 911 for tes
 5. Validate update behavior with a separate test release, new version and regenerated hashes. Keep a fictional guided response open while downloading the next version. Verify it is not interrupted or reloaded. Check the waiting notice. When safe, close every app tab/window; reopen and confirm new version and full offline check. Repeat with an intentionally incomplete deployment on test infrastructure; the old cached release should remain usable. No real emergency use.
 6. Check VoiceOver/TalkBack, large text, contrast, 320px narrow screens, landscape, audio interruptions, and timing controls. Test screen-reader clarity and safe return from training. Verify backups before changing installs.
 7. Independently review medical text and narration, and any proposed emergency illustrations. Conduct approved supervised usability drills with fictional situations. This prototype is not a certified first-aid course or medically approved app.
+
+RC3: verify compression tones and breath tones at safe media volumes on each actual test device, including silent mode, interruptions and 911 link cancellation (no real test calls). Compare timing with an independent timer. Verify accessibility and use only a training mannequin in supervised scenarios.
+
+## RC3 call UI (mock only; do not dial 911 for testing)
+Open confirmation, cancel, escape/back, choose no-connection help, return while timing a fictional event. Check dialog size, screen-reader focus, and absence of call controls in training. Never tap the final live telephone link during testing; inspect its destination or use a test harness that blocks it.

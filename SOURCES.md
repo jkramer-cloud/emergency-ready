@@ -144,3 +144,14 @@ Clinical references, not artwork sources. Original schematic draft graphics; no 
 - Google: [Use web apps on Android](https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid).
 - MDN: [Using service workers](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers).
 These support installation and lifecycle design, not clinical recommendations.
+
+## RC3 CPR pacing sources
+- AHA 2025 Adult BLS: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
+- AHA/AAP 2025 Pediatric BLS: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support
+- Red Cross pediatric CPR technique and process: https://guidelines.redcross.org/guidelines-database/pediatric-cpr-techniques-and-process/
+The 3.5 second breath cue window is a design choice for an approximate rhythm aid, not a prescribed clinical interval. Independent review is required.
+
+## RC3 emergency call safety
+- National 911 Program: https://www.911.gov/calling-911/ and https://www.911.gov/calling-911/frequently-asked-questions/ (good-faith calls, location, accidental calls, text availability).
+- Washington RCW 9A.84.040: https://app.leg.wa.gov/RCW/default.aspx?cite=9A.84.040 (knowing false reports).
+- Washington RCW 4.24.850: https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.850 (possible response costs following conviction). School disciplinary action is policy-dependent.

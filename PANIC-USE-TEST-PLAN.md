@@ -22,3 +22,6 @@ Record time to locate the appropriate screen, number of incorrect taps, requests
 Suggested targets for evaluation (not verified performance claims): locate 911 access immediately; find a primary emergency category in one tap; locate the first instruction without adjusting settings or opening an unrelated section. Investigate hesitation, errors and any safety-critical failures before further release. Do not score speed over correct safe decisions.
 
 Clinical review, accessibility review and real-device validation are release gates. This is a usability protocol, not first-aid certification.
+
+## RC3 additional fictional drills
+Find minor care without opening a call. Open and cancel the call confirmation without losing a guided response or timer. Find no-connection assistance. Practice accidental-call instructions in Training Academy. Never actually initiate a 911 call during a drill. Measure time to locate urgent action and the call entry; check reassurance does not deter good-faith requests.

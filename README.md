@@ -1,11 +1,14 @@
-# Emergency Ready v1.0 RC1 — private release candidate
+# Emergency Ready v1.0 RC3 — private release candidate
 
 **NOT cleared for real emergency use or publication.** Open the extracted `index.html` to test fictional scenarios only. The current build preserves all v0.9.5 application features, assets and offline framework. No repository deployment. Reviewers: open `review-package/review.html` and read `review-package/START-HERE.md`. The review register covers exact application content and pending illustrations. All device, clinical and institutional release gates remain open.
 
-## RC1 changes
-- Added reviewer workstation, searchable item register and portable review-decision export/import.
-- Added confirmation when leaving an active or interrupted response for training, with existing running-timer guard extended to both practice views.
-- Versioned offline cache and hashes regenerated; no changes to medical instructions, media or training answers.
+## RC3 changes
+- CPR age selection (teen/adult, child, infant) and age-specific depth and method guidance. Guided screens preselect their corresponding age. The shared rate remains 100–120/min, default 110/min.
+- Continuous compression-only pacing or 30:2 cycles; pediatric 15:2 is explicitly limited to two trained healthcare rescuers. A contrasting visual phase and two distinct tones mark a brief approximate 3.5-second breath window; a helper can restart the count/resume early. Follow training, AED and dispatcher rather than the cue. Do not delay care, and never stop CPR just because the tool stops.
+- More prominent locally synthesized compression tones, adjustable volume and optional silent visual mode. Sound remains subordinate to phone/dispatcher audio; actual loudness depends on the device.
+- 319 review items (one new CPR tool record); review prior decisions against this changed build. Versioned cache and runtime hashes regenerated. All original reference guides, narration, illustrations, kit and training content retained.
+- RC1 introduced the reviewer workstation and active-response training safeguard; both remain.
+
 
 ## Prior development documentation
 # Emergency Ready v0.9.5 — phone installation & offline readiness
@@ -40,7 +43,7 @@ Extract the entire ZIP; keep the asset folders. Open `index.html` in your browse
 - Home immediately returns to the urgent choices, with a session-only resume/dismiss shortcut for the previous guide. Selecting a new emergency clears the old shortcut. No confirmation for urgent choices or 911.
 - Rapid duplicate Next/Previous activations within 350 ms are ignored; confirmation for clearing a stopped elapsed timer. Active timing continues during navigation.
 - Existing audio cancellation on backgrounding and telephone-link activation retained.
-- 38 guides plus Start here; 139 audio clips; 22 draft WebP illustrations in review-only gallery; 26 academy activities; 38 quiz questions; five emergency tools; seven kit templates all retained.
+- 38 guides plus Start here; 139 audio clips; 22 draft WebP illustrations in review-only gallery; 28 academy activities; 38 quiz questions; five emergency tools; seven kit templates all retained.
 
 ## Verification
 See `TEST-REPORT.md` and `PANIC-USE-TEST-PLAN.md`. WCAG-informed interface improvements do not establish conformance. This build uses the same medical content and audio clips as v0.8.5, except a previously inconsistent active seizure timer alert is aligned to the existing five-minute call warning. No independent clinical review or actual student tests have been performed. Real phone installation and offline behavior remain unverified.
@@ -57,7 +60,7 @@ Next: v0.9.5, installability, home-screen access and real-device verification.
 Private development build; not clinically reviewed or approved for actual emergency use.
 
 ## New in v0.8.2
-- 18 fictional emergency scenarios and 8 equipment activities (44 decisions). School, home, sports and outdoor scenarios.
+- 18 fictional emergency scenarios and 8 equipment activities (47 decisions). School, home, sports and outdoor scenarios.
 - Separate blue practice interface; live telephone links, live emergency tools and normal navigation hidden during practice. Real emergency button returns to the emergency home screen. Active emergency timers prevent launching the academy; narration stops when entering.
 - Five-activity mixed practice, prioritizing unfinished activities, randomized answer order, retries, source-linked explanations and eight practice milestones. No countdowns, accounts or personal records.
 - Locally saved completion and first-try milestones when browser storage permits; shared devices share practice progress. Reset only clears academy progress. The original 38-question quiz remains available.
@@ -123,3 +126,6 @@ Eight locally bundled original draft visuals in `assets/illustrations/`; inspect
 - Detailed hands-on technique illustrations are still outstanding; the new pictograms do not show complete physical procedures.
 - All 22 WebP files are in the updated service worker cache and readiness checks. All 139 audio assets and the Training Academy are unchanged.
 - Next: v0.9 accessibility and panic-use testing, then real-device install and medical review. No publication yet.
+
+## RC3 — call safety and offline help
+RC2 CPR age profiles, sounds and breath cues retained. A compact 911 entry opens one deliberate confirmation dialog; no automatic dialing, no call prerequisite to open guides. Cancel or Escape returns to the same screen without clearing timers. Actual dialing stops competing narration and pacing, consistent with RC2. A separate no-connection panel offers alternatives; no connection is guaranteed. Minor injury menu opens six existing guides. Two new fictional call practice activities (three decisions) make 28 activities and 47 decisions. The new menus and call dialog are written-only; the 139 earlier audio clips are unchanged. Review version 1.0-rc3 has 319 items; all need review. No public emergency use before approvals.

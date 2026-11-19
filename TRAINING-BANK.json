@@ -690,5 +690,54 @@
         "ref": "seizure"
       }
     ]
+  },
+  {
+    "id": "call-responsibly",
+    "group": "School",
+    "title": "Practice a responsible emergency call",
+    "scene": "In this fictional exercise, a classmate collapses and needs immediate help. No real call is made.",
+    "steps": [
+      {
+        "prompt": "You think emergency help is needed, but you are not completely sure. What should you do?",
+        "choices": [
+          "Ask someone to call 911 now or call yourself; get help and follow dispatcher instructions.",
+          "Wait until you are absolutely certain.",
+          "Call as a joke to see what happens."
+        ],
+        "correct": 0,
+        "why": "Do not delay a good-faith call when someone may need immediate emergency assistance. Never prank call.",
+        "ref": "handoff"
+      },
+      {
+        "prompt": "What should you tell the simulated dispatcher first?",
+        "choices": [
+          "Your exact location and what happened; answer their questions and stay on the line.",
+          "Only your first name, then hang up.",
+          "Make up an address."
+        ],
+        "correct": 0,
+        "why": "Accurate location and emergency details help responders reach the person. Follow the dispatcher.",
+        "ref": "handoff"
+      }
+    ]
+  },
+  {
+    "id": "accidental-call",
+    "group": "Home",
+    "title": "Accidental emergency call",
+    "scene": "Imagine you accidentally called 911 while trying to use the phone. This is a practice scenario only.",
+    "steps": [
+      {
+        "prompt": "What is the right response if the call connects?",
+        "choices": [
+          "Stay on the line and explain the accident.",
+          "Hang up immediately without speaking.",
+          "Pretend there is an emergency."
+        ],
+        "correct": 0,
+        "why": "Explain an accidental call honestly. Hanging up can cause unnecessary follow-up.",
+        "ref": "callfaq"
+      }
+    ]
   }
 ]

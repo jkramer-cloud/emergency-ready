@@ -77,7 +77,7 @@ This is a development prototype, not an approved emergency reference. Do not rel
 
 
 ## v0.8.2 Academy review
-- Independently review each of the 44 decisions, explanations and source mappings (TRAINING-BANK.json).
+- Independently review each of the 47 decisions, explanations and source mappings (TRAINING-BANK.json).
 - Test with supervised learners using fictional scenes and training equipment only.
 - Confirm simulated actions never trigger phone calls or real treatment instructions via audio or tools; test return to real emergency screen.
 - Verify language, developmental appropriateness, assistive technology, storage persistence and shared-device reset.
@@ -103,3 +103,16 @@ This is a development prototype, not an approved emergency reference. Do not rel
 - [ ] Complete DEVICE-INSTALL-TEST.md on actual iOS Safari and Android Chrome, including offline launch/audio and an update while a fictional response is open.
 - [ ] Validate actual device accessibility and supervised fictional scenarios.
 - [ ] Obtain qualified medical review of all written/spoken guidance and any images before public use. Draft imagery stays review-only until approved.
+
+## RC3 CPR pacing review
+- [ ] Validate age definitions and depth reminders, 30:2 and continuous compression modes, and the pediatric 15:2 limitation.
+- [ ] Confirm that the 3.5-second automatic cue window does not encourage delay or prolonged interruption; evaluate early resume/restart and actual-device sound intelligibility.
+- [ ] Test dispatcher/AED priority, classroom noise, muted devices, audio interruption, navigation and screen sleep. Use training mannequins only under supervision.
+
+## RC3 review additions
+- [ ] Call dialog wording, good-faith reassurance, Washington false report and response-cost warning, school policy, accidental-call instruction.
+- [ ] Offline communication alternatives, text-to-911 limitations, no guarantee of connectivity.
+- [ ] Minor-injury choices and escalation; no delays in life-threatening pathways.
+- [ ] Confirm dialing only after deliberate click; no real telephone calls in drills.
+- [ ] Verify CPR and response continuity on cancel, including keyboard and device back; check actual call interruption behavior only with a mock test.
+- [ ] Review two new call practice scenarios.
