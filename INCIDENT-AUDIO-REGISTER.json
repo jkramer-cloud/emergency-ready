@@ -1,0 +1,86 @@
+[
+  {
+    "file": "assets/incident-audio/en-0.mp3",
+    "lang": "en",
+    "script": "Where are we?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-0.mp3",
+    "lang": "es",
+    "script": "¿Dónde estamos?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/en-1.mp3",
+    "lang": "en",
+    "script": "What happened, and when did it happen?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-1.mp3",
+    "lang": "es",
+    "script": "¿Qué pasó y cuándo ocurrió?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/en-2.mp3",
+    "lang": "en",
+    "script": "Is the person responding and breathing normally?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-2.mp3",
+    "lang": "es",
+    "script": "¿La persona responde y respira normalmente?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/en-3.mp3",
+    "lang": "en",
+    "script": "What care has already been given, and at what time?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-3.mp3",
+    "lang": "es",
+    "script": "¿Qué atención se ha dado y a qué hora?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/en-4.mp3",
+    "lang": "en",
+    "script": "Has the person’s condition changed?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-4.mp3",
+    "lang": "es",
+    "script": "¿Ha cambiado el estado de la persona?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/en-5.mp3",
+    "lang": "en",
+    "script": "Are there known allergies or medical conditions, if relevant?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/es-5.mp3",
+    "lang": "es",
+    "script": "¿Se conocen alergias o enfermedades, si son relevantes?",
+    "status": "draft synthetic speech; review required"
+  },
+  {
+    "file": "assets/incident-audio/notice-en.mp3",
+    "lang": "en",
+    "script": "Emergency incident audio recording for responders.",
+    "status": "draft synthetic speech; review required; capture depends on device audio routing"
+  },
+  {
+    "file": "assets/incident-audio/notice-es.mp3",
+    "lang": "es",
+    "script": "Grabación de audio de emergencia para el personal de emergencias.",
+    "status": "draft synthetic speech; review required; capture depends on device audio routing"
+  }
+]

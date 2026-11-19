@@ -1,7 +1,7 @@
 {
-  "version": "1.0-rc4",
+  "version": "1.0-rc7",
   "files": {
-    "index.html": "2d17176c5a33d1b5757a424dd8942ebad490b31e37434cbbd003ba0eeefb8e5b",
+    "index.html": "d59c7965470030d2f88696cc1ca4ba2a931c9e6dbf4e443dc0d1cca5bb468fe0",
     "manifest.webmanifest": "f360e2877c73b8bba51bc52fcd70c8e617e27656581461e16a0395cd206fb316",
     "assets/apple-touch-icon.png": "633439729beb98dcd72aee7cd35272f0bba7743addaf609357d4a57c70132e27",
     "assets/audio/adult-0.mp3": "95d12dc0f1214b6d64dd66d6087b11fc880980f4f15797466470de7a93121084",
@@ -167,6 +167,20 @@
     "assets/illustrations/medical/epinephrine-recognition.webp": "72ed3a70ac2126f5c5abde2a4a5a867417b3a5a28c5cf48aedc34b4d24892707",
     "assets/illustrations/medical/seizure-protection.webp": "1068c41d3f665c7dab4f7c0d316d65ebb5db0606023cbd8dd3b466d124e48db8",
     "assets/illustrations/recovery/recovery-decision.webp": "35fa6439a115b9149b2be7e5f4a82696b5c2ea1dd4e68ca90c8d443b523b1ce8",
-    "assets/illustrations/recovery/recovery-monitor.webp": "00aa4cd6c43a6b9e2194d61b2525369c225591da3f1071b6d95386df55f9f8b1"
+    "assets/illustrations/recovery/recovery-monitor.webp": "00aa4cd6c43a6b9e2194d61b2525369c225591da3f1071b6d95386df55f9f8b1",
+    "assets/incident-audio/en-0.mp3": "fa90cb8f5bf1262cb2e04d3c130f7a891ed3fea970fd8d0aea8812dff0a4d1a2",
+    "assets/incident-audio/en-1.mp3": "e355e276da169cf0070d6d333f19b9ae7b53d3f5b0e239af8ed818bcea69cdcb",
+    "assets/incident-audio/en-2.mp3": "aa2c740d22d9a00d3900b16af9ae6dd1cb9cf6fecc4603e87c2ede3b46fc96d9",
+    "assets/incident-audio/en-3.mp3": "0219aa3760eea6f85e3eea82c796c40bccf3d07fe200df001d922dc385c2cd64",
+    "assets/incident-audio/en-4.mp3": "42dc299032703de0f0533156cda45356eee3354fd676dc8d33a30722701b94d3",
+    "assets/incident-audio/en-5.mp3": "969ca1277ea0b33a917d3fb54dd62836fe822204235ff5e92731922f323ab986",
+    "assets/incident-audio/es-0.mp3": "4107923d7a2d5673f49ba0d931b359c6a866e2f92c7db4efb3ca6a20110005ae",
+    "assets/incident-audio/es-1.mp3": "83d7c6043b7ac00f51bd805d77ffb96b8868e84830fd50b92d7fd003b0897fb6",
+    "assets/incident-audio/es-2.mp3": "ee9edb10e6cbb240a72885cd56d55527c9ba96d28535c06a90f275786e97f79f",
+    "assets/incident-audio/es-3.mp3": "dcbddde866ae7326af52004417a7b4d357dc806ed05346e773fd7cb0ac00866a",
+    "assets/incident-audio/es-4.mp3": "fe4db74ad4d5622e8c3f84dbfbb93a60df660f5e8af3cf7a69f707b3f0753bf6",
+    "assets/incident-audio/es-5.mp3": "8e81aa9775da749c21ac0f493f1dc4ecd93159eb6760bb30c98916731c19c7ee",
+    "assets/incident-audio/notice-es.mp3": "afd175beb1fac9c24c594821cad8fafeee8d353e2aad64a8781121c57b9cbd64",
+    "assets/incident-audio/notice-en.mp3": "e043a6c36a9501a18ea8a93045a69e5219e21f3578fb39e8fc14b308a0ecec6e"
   }
 }

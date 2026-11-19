@@ -1,5 +1,5 @@
 {
-  "status": "draft; review by bilingual clinical reviewer required",
+  "status": "draft; bilingual clinical review required",
   "entries": [
     {
       "english": "Emergency help",
@@ -1088,7 +1088,7 @@
     },
     {
       "english": "Event timeline",
-      "spanish": "Registro de eventos",
+      "spanish": "Cronología de eventos",
       "status": "pending"
     },
     {
@@ -1098,7 +1098,7 @@
     },
     {
       "english": "No events marked yet.",
-      "spanish": "Todavía no hay eventos registrados.",
+      "spanish": "Aún no hay eventos registrados.",
       "status": "pending"
     },
     {
@@ -1148,17 +1148,17 @@
     },
     {
       "english": "Clear timeline",
-      "spanish": "Borrar registro",
+      "spanish": "Borrar cronología",
       "status": "pending"
     },
     {
       "english": "Session-only, limited to the most recent 100 entries. Not a medical record or medication schedule.",
-      "spanish": "Solo esta sesión, máximo 100 registros recientes. No es expediente médico ni horario de medicamentos.",
+      "spanish": "Solo esta sesión, hasta las 100 entradas más recientes. No es un expediente médico ni un horario de medicamentos.",
       "status": "pending"
     },
     {
       "english": "What to tell 911 / responders",
-      "spanish": "Qué decir al 911 / rescatistas",
+      "spanish": "Qué decir al 911 / al personal de emergencias",
       "status": "pending"
     },
     {
@@ -3157,8 +3157,8 @@
       "status": "pending"
     },
     {
-      "english": "Private review build · v1.0 RC4",
-      "spanish": "Versión privada de revisión · v1.0 RC4",
+      "english": "Private review build · v1.0 RC7",
+      "spanish": "Versión privada de revisión · v1.0 RC7",
       "status": "pending"
     },
     {
@@ -3502,8 +3502,8 @@
       "status": "pending"
     },
     {
-      "english": "Independent U.S. prototype. No sign-in, tracking, location requests, or patient records.",
-      "spanish": "Prototipo independiente de EE. UU. Sin inicio de sesión, seguimiento, solicitud de ubicación ni expedientes de pacientes.",
+      "english": "Independent U.S. prototype. No sign-in, tracking or location requests. Optional incident recording stays in memory unless you explicitly save a local audio file. Do not use real student data in prototype testing.",
+      "spanish": "Prototipo independiente de EE. UU. Sin inicio de sesión, seguimiento ni solicitudes de ubicación. La grabación opcional de emergencias queda en memoria salvo que guarde expresamente un archivo local de audio. No use datos reales de estudiantes en las pruebas del prototipo.",
       "status": "pending"
     },
     {
@@ -3554,6 +3554,616 @@
     {
       "english": "Language / Idioma",
       "spanish": "Language / Idioma",
+      "status": "pending"
+    },
+    {
+      "english": "Helper station",
+      "spanish": "Panel de ayuda",
+      "status": "pending"
+    },
+    {
+      "english": "Only a second helper should use this panel. Do not delay care to enter notes.",
+      "spanish": "Solo otra persona que ayude debe usar este panel. No retrase la atención para registrar notas.",
+      "status": "pending"
+    },
+    {
+      "english": "Quick event stamps",
+      "spanish": "Registro rápido de eventos",
+      "status": "pending"
+    },
+    {
+      "english": "Mark only actions that actually happened. Automatic pacing entries describe the tool, not actual CPR.",
+      "spanish": "Marque solo acciones que realmente ocurrieron. Las entradas automáticas describen la herramienta, no la RCP real.",
+      "status": "pending"
+    },
+    {
+      "english": "Full event timeline",
+      "spanish": "Cronología completa",
+      "status": "pending"
+    },
+    {
+      "english": "More event buttons",
+      "spanish": "Más botones de eventos",
+      "status": "pending"
+    },
+    {
+      "english": "Recent events (newest first)",
+      "spanish": "Eventos recientes (más recientes primero)",
+      "status": "pending"
+    },
+    {
+      "english": "Recorded events",
+      "spanish": "Eventos registrados",
+      "status": "pending"
+    },
+    {
+      "english": "Pacing tool started (automatic cue log)",
+      "spanish": "Herramienta de ritmo iniciada (registro automático de señal)",
+      "status": "pending"
+    },
+    {
+      "english": "Pacing tool stopped (automatic cue log)",
+      "spanish": "Herramienta de ritmo detenida (registro automático de señal)",
+      "status": "pending"
+    },
+    {
+      "english": "CPR begun",
+      "spanish": "RCP iniciada",
+      "status": "pending"
+    },
+    {
+      "english": "CPR stopped",
+      "spanish": "RCP detenida",
+      "status": "pending"
+    },
+    {
+      "english": "AED turned on",
+      "spanish": "DEA encendido",
+      "status": "pending"
+    },
+    {
+      "english": "Voice note captured (practice)",
+      "spanish": "Nota de voz grabada (práctica)",
+      "status": "pending"
+    },
+    {
+      "english": "Questions for the helper",
+      "spanish": "Preguntas para quien ayuda",
+      "status": "pending"
+    },
+    {
+      "english": "Listen to a question",
+      "spanish": "Escuchar una pregunta",
+      "status": "pending"
+    },
+    {
+      "english": "Listen",
+      "spanish": "Escuchar",
+      "status": "pending"
+    },
+    {
+      "english": "Stop audio",
+      "spanish": "Detener audio",
+      "status": "pending"
+    },
+    {
+      "english": "Answer unknown? Skip it. Never delay care or ask an unresponsive person questions.",
+      "spanish": "¿No sabe la respuesta? Omítala. Nunca retrase la atención ni haga preguntas a una persona que no responde.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice notes — supervised practice only",
+      "spanish": "Notas de voz — solo práctica supervisada",
+      "status": "pending"
+    },
+    {
+      "english": "Use fictional details only. Tell everyone before recording and obtain permission. Do not record names, medical details of real students, or 911 calls.",
+      "spanish": "Use solo datos ficticios. Avise a todos antes de grabar y obtenga permiso. No grabe nombres, datos médicos de estudiantes reales ni llamadas al 911.",
+      "status": "pending"
+    },
+    {
+      "english": "Everyone agrees; fictional practice only",
+      "spanish": "Todos dan permiso; solo práctica ficticia",
+      "status": "pending"
+    },
+    {
+      "english": "Start voice note (30 seconds max)",
+      "spanish": "Grabar nota de voz (máximo 30 segundos)",
+      "status": "pending"
+    },
+    {
+      "english": "Stop recording",
+      "spanish": "Detener grabación",
+      "status": "pending"
+    },
+    {
+      "english": "No notes yet.",
+      "spanish": "Aún no hay notas.",
+      "status": "pending"
+    },
+    {
+      "english": "Delete note",
+      "spanish": "Eliminar nota",
+      "status": "pending"
+    },
+    {
+      "english": "Delete all voice notes",
+      "spanish": "Eliminar todas las notas de voz",
+      "status": "pending"
+    },
+    {
+      "english": "Voice notes stay in this tab until closed or refreshed. No saving, upload or transcription. Up to five notes.",
+      "spanish": "Las notas quedan en esta pestaña hasta que se cierre o recargue. No se guardan, suben ni transcriben. Hasta cinco notas.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice notes and question audio are unavailable while CPR pacing is running. Use manual event buttons or a separate helper device.",
+      "spanish": "Las notas de voz y el audio de preguntas no están disponibles mientras funciona el ritmo de RCP. Use los botones manuales o un dispositivo de otra persona que ayude.",
+      "status": "pending"
+    },
+    {
+      "english": "Please obtain permission and confirm fictional practice.",
+      "spanish": "Obtenga permiso y confirme que es práctica ficticia.",
+      "status": "pending"
+    },
+    {
+      "english": "Recording…",
+      "spanish": "Grabando…",
+      "status": "pending"
+    },
+    {
+      "english": "Requesting microphone permission…",
+      "spanish": "Solicitando permiso para el micrófono…",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone unavailable or permission denied. Use the event buttons instead.",
+      "spanish": "Micrófono no disponible o permiso denegado. Use los botones de eventos.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice note ready.",
+      "spanish": "Nota de voz lista.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice note discarded.",
+      "spanish": "Nota de voz descartada.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice note could not be recorded.",
+      "spanish": "No se pudo grabar la nota de voz.",
+      "status": "pending"
+    },
+    {
+      "english": "Maximum of five notes. Delete one to record more.",
+      "spanish": "Máximo de cinco notas. Elimine una para grabar más.",
+      "status": "pending"
+    },
+    {
+      "english": "Audio unavailable. Read the question instead.",
+      "spanish": "Audio no disponible. Lea la pregunta.",
+      "status": "pending"
+    },
+    {
+      "english": "Recording stopped.",
+      "spanish": "Grabación detenida.",
+      "status": "pending"
+    },
+    {
+      "english": "Play note",
+      "spanish": "Reproducir nota",
+      "status": "pending"
+    },
+    {
+      "english": "Voice notes",
+      "spanish": "Notas de voz",
+      "status": "pending"
+    },
+    {
+      "english": "Times are when buttons were pressed, not necessarily when care occurred.",
+      "spanish": "Las horas indican cuándo se pulsaron los botones, no necesariamente cuándo ocurrió la atención.",
+      "status": "pending"
+    },
+    {
+      "english": "Listen or record only outside active pacing.",
+      "spanish": "Escuche o grabe solo cuando el ritmo esté detenido.",
+      "status": "pending"
+    },
+    {
+      "english": "Voice notes and questions",
+      "spanish": "Notas de voz y preguntas",
+      "status": "pending"
+    },
+    {
+      "english": "Helper audio is not a recording of emergency care.",
+      "spanish": "El audio de ayuda no es una grabación de atención de emergencia.",
+      "status": "pending"
+    },
+    {
+      "english": "Clear all voice notes?",
+      "spanish": "¿Borrar todas las notas de voz?",
+      "status": "pending"
+    },
+    {
+      "english": "Stop playing",
+      "spanish": "Detener reproducción",
+      "status": "pending"
+    },
+    {
+      "english": "Play last note",
+      "spanish": "Reproducir última nota",
+      "status": "pending"
+    },
+    {
+      "english": "Recording time",
+      "spanish": "Tiempo de grabación",
+      "status": "pending"
+    },
+    {
+      "english": "Listen to question audio",
+      "spanish": "Escuchar audio de pregunta",
+      "status": "pending"
+    },
+    {
+      "english": "Responder checklist",
+      "spanish": "Lista para personal de emergencias",
+      "status": "pending"
+    },
+    {
+      "english": "Where are we?",
+      "spanish": "¿Dónde estamos?",
+      "status": "pending"
+    },
+    {
+      "english": "What happened, and when did it happen?",
+      "spanish": "¿Qué pasó y cuándo ocurrió?",
+      "status": "pending"
+    },
+    {
+      "english": "Is the person responding and breathing normally?",
+      "spanish": "¿La persona responde y respira normalmente?",
+      "status": "pending"
+    },
+    {
+      "english": "What care has already been given, and at what time?",
+      "spanish": "¿Qué atención se ha dado y a qué hora?",
+      "status": "pending"
+    },
+    {
+      "english": "Has the person’s condition changed?",
+      "spanish": "¿Ha cambiado el estado de la persona?",
+      "status": "pending"
+    },
+    {
+      "english": "Are there known allergies or medical conditions, if relevant?",
+      "spanish": "¿Se conocen alergias o enfermedades, si son relevantes?",
+      "status": "pending"
+    },
+    {
+      "english": "Optional emergency incident recording",
+      "spanish": "Grabación opcional de una emergencia",
+      "status": "pending"
+    },
+    {
+      "english": "Tell people nearby:",
+      "spanish": "Avise a las personas cercanas:",
+      "status": "pending"
+    },
+    {
+      "english": "This emergency is being audio recorded for responders.",
+      "spanish": "Se está grabando el audio de esta emergencia para el personal de emergencias.",
+      "status": "pending"
+    },
+    {
+      "english": "Tell people nearby: This emergency is being audio recorded for responders.",
+      "spanish": "Avise a las personas cercanas: Se está grabando el audio de esta emergencia para el personal de emergencias.",
+      "status": "pending"
+    },
+    {
+      "english": "Start pacing + record incident",
+      "spanish": "Iniciar ritmo y grabar la emergencia",
+      "status": "pending"
+    },
+    {
+      "english": "Recording is optional. Do not delay first aid or a call to 911. No recording of phone calls.",
+      "spanish": "La grabación es opcional. No retrase los primeros auxilios ni la llamada al 911. No grabe llamadas telefónicas.",
+      "status": "pending"
+    },
+    {
+      "english": "Emergency incident recording",
+      "spanish": "Grabación de emergencia",
+      "status": "pending"
+    },
+    {
+      "english": "Recording elapsed time",
+      "spanish": "Tiempo de grabación",
+      "status": "pending"
+    },
+    {
+      "english": "Listen to recording",
+      "spanish": "Escuchar la grabación",
+      "status": "pending"
+    },
+    {
+      "english": "Stop playback",
+      "spanish": "Detener reproducción",
+      "status": "pending"
+    },
+    {
+      "english": "Save audio file",
+      "spanish": "Guardar archivo de audio",
+      "status": "pending"
+    },
+    {
+      "english": "Delete recording",
+      "spanish": "Eliminar grabación",
+      "status": "pending"
+    },
+    {
+      "english": "Dismiss",
+      "spanish": "Cerrar aviso",
+      "status": "pending"
+    },
+    {
+      "english": "Recording complete. Listen, save or delete after stopping pacing.",
+      "spanish": "Grabación terminada. Escuche, guarde o elimine después de detener el ritmo.",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone request canceled. Continue first aid.",
+      "spanish": "Solicitud del micrófono cancelada. Continúe los primeros auxilios.",
+      "status": "pending"
+    },
+    {
+      "english": "Finishing recording…",
+      "spanish": "Finalizando grabación…",
+      "status": "pending"
+    },
+    {
+      "english": "Recording interrupted. Use the event timeline instead.",
+      "spanish": "Grabación interrumpida. Use el registro de eventos.",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone unavailable. CPR pacing continues. Use the event timeline.",
+      "spanish": "Micrófono no disponible. El ritmo de RCP continúa. Use el registro de eventos.",
+      "status": "pending"
+    },
+    {
+      "english": "Requesting microphone permission. Continue CPR.",
+      "spanish": "Solicitando permiso del micrófono. Continúe la RCP.",
+      "status": "pending"
+    },
+    {
+      "english": "Recording incident audio for responders.",
+      "spanish": "Grabando audio de la emergencia para el personal de emergencias.",
+      "status": "pending"
+    },
+    {
+      "english": "Storage limit reached. Recording stopped; save or delete it.",
+      "spanish": "Se alcanzó el límite de almacenamiento. Se detuvo la grabación; guárdela o elimínela.",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone stopped unexpectedly. Review the available recording.",
+      "spanish": "El micrófono se detuvo inesperadamente. Revise la grabación disponible.",
+      "status": "pending"
+    },
+    {
+      "english": "Incident audio recording stopped (automatic log)",
+      "spanish": "Grabación de emergencia detenida (registro automático)",
+      "status": "pending"
+    },
+    {
+      "english": "No audio was captured. Use the event timeline.",
+      "spanish": "No se grabó audio. Use el registro de eventos.",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone error. Review any available recording.",
+      "spanish": "Error del micrófono. Revise la grabación disponible.",
+      "status": "pending"
+    },
+    {
+      "english": "Incident audio recording started (automatic log)",
+      "spanish": "Grabación de emergencia iniciada (registro automático)",
+      "status": "pending"
+    },
+    {
+      "english": "60-minute recording limit reached. Save or delete the recording.",
+      "spanish": "Se alcanzó el límite de 60 minutos. Guarde o elimine la grabación.",
+      "status": "pending"
+    },
+    {
+      "english": "Microphone unavailable or permission denied. CPR pacing continues. Use the event timeline.",
+      "spanish": "Micrófono no disponible o permiso denegado. El ritmo de RCP continúa. Use el registro de eventos.",
+      "status": "pending"
+    },
+    {
+      "english": "Delete this recording from the app? Downloaded copies are not deleted.",
+      "spanish": "¿Eliminar esta grabación de la aplicación? Las copias descargadas no se eliminan.",
+      "status": "pending"
+    },
+    {
+      "english": "Save requested. Verify the file on this device. Share only with authorized responders.",
+      "spanish": "Se solicitó guardar. Verifique el archivo en este dispositivo. Comparta solo con personal autorizado.",
+      "status": "pending"
+    },
+    {
+      "english": "Responder handoff",
+      "spanish": "Entrega de información a rescatistas",
+      "status": "pending"
+    },
+    {
+      "english": "Close summary",
+      "spanish": "Cerrar resumen",
+      "status": "pending"
+    },
+    {
+      "english": "Let a helper show this to responders. Do not interrupt first aid.",
+      "spanish": "Pida a un ayudante que muestre esto a los rescatistas. No interrumpa los primeros auxilios.",
+      "status": "pending"
+    },
+    {
+      "english": "Show incident summary",
+      "spanish": "Mostrar resumen del incidente",
+      "status": "pending"
+    },
+    {
+      "english": "App activity is not proof of treatment. Times reflect interaction with this device; reported events may have happened earlier.",
+      "spanish": "La actividad de la aplicación no demuestra que se haya realizado un tratamiento. Los horarios indican cuándo se usó el dispositivo; los hechos informados podrían haber ocurrido antes.",
+      "status": "pending"
+    },
+    {
+      "english": "CPR settings used",
+      "spanish": "Ajustes de RCP utilizados",
+      "status": "pending"
+    },
+    {
+      "english": "Event timeline — oldest first",
+      "spanish": "Cronología — primero los eventos más antiguos",
+      "status": "pending"
+    },
+    {
+      "english": "Incident audio",
+      "spanish": "Audio del incidente",
+      "status": "pending"
+    },
+    {
+      "english": "Save incident summary (text)",
+      "spanish": "Guardar resumen del incidente (texto)",
+      "status": "pending"
+    },
+    {
+      "english": "Optional local file. Share only with responders or as required by law. No automatic upload. Closing this tab loses unsaved information.",
+      "spanish": "Archivo local opcional. Comparta solo con rescatistas o según exija la ley. No se sube automáticamente. Al cerrar esta pestaña se pierde la información no guardada.",
+      "status": "pending"
+    },
+    {
+      "english": "Clear incident / start new",
+      "spanish": "Borrar incidente / iniciar otro",
+      "status": "pending"
+    },
+    {
+      "english": "First app event",
+      "spanish": "Primer evento de la aplicación",
+      "status": "pending"
+    },
+    {
+      "english": "Elapsed since first app event",
+      "spanish": "Tiempo desde el primer evento de la aplicación",
+      "status": "pending"
+    },
+    {
+      "english": "Total pacing-tool time",
+      "spanish": "Tiempo total de la herramienta de ritmo",
+      "status": "pending"
+    },
+    {
+      "english": "Pacing sessions",
+      "spanish": "Sesiones de ritmo",
+      "status": "pending"
+    },
+    {
+      "english": "Compression cues displayed",
+      "spanish": "Señales de compresión mostradas",
+      "status": "pending"
+    },
+    {
+      "english": "Breath cue windows entered",
+      "spanish": "Intervalos de respiraciones iniciados",
+      "status": "pending"
+    },
+    {
+      "english": "Cue restarts",
+      "spanish": "Reinicios del ritmo",
+      "status": "pending"
+    },
+    {
+      "english": "Recording now",
+      "spanish": "Grabando ahora",
+      "status": "pending"
+    },
+    {
+      "english": "Waiting for microphone",
+      "spanish": "Esperando el micrófono",
+      "status": "pending"
+    },
+    {
+      "english": "No recording available",
+      "spanish": "No hay grabación disponible",
+      "status": "pending"
+    },
+    {
+      "english": "No pacing settings recorded.",
+      "spanish": "No se registraron ajustes de ritmo.",
+      "status": "pending"
+    },
+    {
+      "english": "Older entries omitted:",
+      "spanish": "Eventos antiguos omitidos:",
+      "status": "pending"
+    },
+    {
+      "english": "Recording available on this device.",
+      "spanish": "Grabación disponible en este dispositivo.",
+      "status": "pending"
+    },
+    {
+      "english": "Recording is active. Listen or save after pacing stops.",
+      "spanish": "Grabación activa. Escuche o guarde después de detener el ritmo.",
+      "status": "pending"
+    },
+    {
+      "english": "No completed recording available.",
+      "spanish": "No hay grabación terminada disponible.",
+      "status": "pending"
+    },
+    {
+      "english": "Stop running event timers before clearing the incident.",
+      "spanish": "Detenga los temporizadores activos antes de borrar el incidente.",
+      "status": "pending"
+    },
+    {
+      "english": "Clear this incident timeline and counters? Saved files on the device will remain.",
+      "spanish": "¿Borrar la cronología y los contadores del incidente? Los archivos guardados permanecerán en el dispositivo.",
+      "status": "pending"
+    },
+    {
+      "english": "App activity",
+      "spanish": "Actividad de la aplicación",
+      "status": "pending"
+    },
+    {
+      "english": "Reported / button pressed",
+      "spanish": "Informado / botón pulsado",
+      "status": "pending"
+    },
+    {
+      "english": "Guide opened:",
+      "spanish": "Guía abierta:",
+      "status": "pending"
+    },
+    {
+      "english": "Pacing cue count restarted (automatic log)",
+      "spanish": "Conteo del ritmo reiniciado (registro automático)",
+      "status": "pending"
+    },
+    {
+      "english": "Delete the recording from the app before clearing the incident. Save a copy first if needed.",
+      "spanish": "Elimine la grabación de la aplicación antes de borrar el incidente. Guarde una copia primero si es necesario.",
+      "status": "pending"
+    },
+    {
+      "english": "For a genuine medical emergency only, to help responders understand what happened. A participating helper may choose to record. This unapproved prototype is for fictional drills only.",
+      "spanish": "Solo para una emergencia médica real, para ayudar a los rescatistas a entender lo ocurrido. Un ayudante que participe puede elegir grabar. Este prototipo sin aprobación es solo para simulacros ficticios.",
+      "status": "pending"
+    },
+    {
+      "english": "Audio stays in this tab unless you choose Save. Only share with responders or as required by law. Downloaded files remain on the device after deleting here; keep them private. Closing or refreshing loses unsaved audio.",
+      "spanish": "El audio queda en esta pestaña salvo que elija Guardar. Comparta solo con rescatistas o según exija la ley. Los archivos descargados permanecen en el dispositivo aunque se borren aquí; manténgalos privados. Cerrar o recargar pierde el audio no guardado.",
       "status": "pending"
     }
   ]
