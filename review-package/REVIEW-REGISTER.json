@@ -1,5 +1,5 @@
 {
-  "version": "1.0-rc1",
+  "version": "1.0-rc3",
   "items": [
     {
       "id": "guide:first",
@@ -3403,6 +3403,104 @@
       "title": "Release authorization",
       "content": "Record clinical sign-off, device and school acceptance, unresolved issues, reviewed build digest and authorized distribution. No software status automatically grants approval.",
       "sources": [],
+      "asset": null
+    },
+    {
+      "id": "tool:cpr-cycle",
+      "group": "Cross-cutting review",
+      "title": "CPR age profiles, compression rhythm and breath cues",
+      "content": "Verify all age definitions, depth cues, age-specific method defaults, hands-only fallback, 30:2 lay-responder mode and restricted 15:2 mode for two trained pediatric healthcare rescuers. Review approximate 3.5-second breath cue window and synchronization, two distinct breath tones, restart-count control, dispatcher precedence, and volume/physical-device usability. This is an optional cue aid, not a sensor or clinical timer. Verify no delays to CPR or AED use.",
+      "sources": [
+        {
+          "label": "AHA — Adult BLS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support"
+        },
+        {
+          "label": "AHA/AAP — Pediatric BLS",
+          "url": "https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/pediatric-basic-life-support"
+        },
+        {
+          "label": "Red Cross — Pediatric CPR technique and process",
+          "url": "https://guidelines.redcross.org/guidelines-database/pediatric-cpr-techniques-and-process/"
+        }
+      ],
+      "asset": null
+    },
+    {
+      "id": "scenario:call-responsibly:1",
+      "group": "Academy decisions",
+      "title": "Practice a responsible emergency call — decision 1",
+      "content": "In this fictional exercise, a classmate collapses and needs immediate help. No real call is made.\n\nYou think emergency help is needed, but you are not completely sure. What should you do?\nCORRECT: Ask someone to call 911 now or call yourself; get help and follow dispatcher instructions.\nDistractor: Wait until you are absolutely certain.\nDistractor: Call as a joke to see what happens.\n\nFeedback: Do not delay a good-faith call when someone may need immediate emergency assistance. Never prank call.",
+      "sources": [
+        {
+          "label": "National 911 Program — Calling 911",
+          "url": "https://www.911.gov/calling-911/"
+        }
+      ],
+      "asset": null
+    },
+    {
+      "id": "scenario:call-responsibly:2",
+      "group": "Academy decisions",
+      "title": "Practice a responsible emergency call — decision 2",
+      "content": "In this fictional exercise, a classmate collapses and needs immediate help. No real call is made.\n\nWhat should you tell the simulated dispatcher first?\nCORRECT: Your exact location and what happened; answer their questions and stay on the line.\nDistractor: Only your first name, then hang up.\nDistractor: Make up an address.\n\nFeedback: Accurate location and emergency details help responders reach the person. Follow the dispatcher.",
+      "sources": [
+        {
+          "label": "National 911 Program — Calling 911",
+          "url": "https://www.911.gov/calling-911/"
+        }
+      ],
+      "asset": null
+    },
+    {
+      "id": "scenario:accidental-call:1",
+      "group": "Academy decisions",
+      "title": "Accidental emergency call — decision 1",
+      "content": "Imagine you accidentally called 911 while trying to use the phone. This is a practice scenario only.\n\nWhat is the right response if the call connects?\nCORRECT: Stay on the line and explain the accident.\nDistractor: Hang up immediately without speaking.\nDistractor: Pretend there is an emergency.\n\nFeedback: Explain an accidental call honestly. Hanging up can cause unnecessary follow-up.",
+      "sources": [
+        {
+          "label": "National 911 Program — FAQ",
+          "url": "https://www.911.gov/calling-911/frequently-asked-questions/"
+        }
+      ],
+      "asset": null
+    },
+    {
+      "id": "gate:call-confirmation",
+      "group": "Cross-cutting review",
+      "title": "Single deliberate call confirmation and fallback",
+      "content": "Real emergency call\nYou are about to contact real emergency services, not practice.\nIf someone may need immediate help, call now. You do not have to be certain.\nNo prank calls.\nIntentionally false reports can delay lifesaving help and may result in school discipline, criminal charges or response costs.\nContinue to 911\nCancel — return to first aid\nCan't reach 911?\nIf you call accidentally, stay on the line and explain the mistake. Do not hang up.\nCan't reach 911?\nKeep trying to get help. Do not delay lifesaving first aid.\n← Return to first aid\nTry 911 even if your carrier has no signal. Another compatible network may connect. Tell responders your exact location.\nAsk a nearby adult or bystander to call from another phone and bring an AED if needed. At school, alert the office or nurse.\nIf you cannot call, try texting 911 where supported. Give your location and emergency. If delivery fails, find another way to get help. Texting requires a connection.\nOutdoors, use an available satellite emergency SOS device, rescue beacon or rescue plan. If safe, send someone for help. Avoid additional danger.\nContinue appropriate first aid while help is sought. Follow the dispatcher or AED when available.\nThis app cannot send a distress signal, locate you, place a call on your behalf or guarantee a connection. For medical guidance, use established resources and training.\nReturn to first aid\nTry calling 911\n\nCheck no link before confirmation; cancel and escape preserve response/timers; training has no call access. No real call tests. Verify age-appropriate, non-deterring warning and local school policy.",
+      "sources": [
+        {
+          "label": "National 911 Program — Calling 911",
+          "url": "https://www.911.gov/calling-911/"
+        },
+        {
+          "label": "National 911 Program — FAQ",
+          "url": "https://www.911.gov/calling-911/frequently-asked-questions/"
+        },
+        {
+          "label": "Washington false reporting",
+          "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=9A.84.040"
+        },
+        {
+          "label": "Washington response costs",
+          "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=4.24.850"
+        }
+      ],
+      "asset": null
+    },
+    {
+      "id": "gate:minor-entry",
+      "group": "Cross-cutting review",
+      "title": "Emergency home and minor first-aid route",
+      "content": "Compact persistent call and connection-help controls; urgent condition choices unchanged. Minor injury / first aid opens an existing guide for cuts, nosebleeds, sprains, burns, ticks or eye injuries. The new minor chooser has no narration; each existing guide retains its audio. Review opening and escalation wording and supervised student navigation.",
+      "sources": [
+        {
+          "label": "National 911 Program — Calling 911",
+          "url": "https://www.911.gov/calling-911/"
+        }
+      ],
       "asset": null
     }
   ]

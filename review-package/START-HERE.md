@@ -1,8 +1,8 @@
-# RC1 independent review package
+# RC3 independent review package
 
 **Not approved for emergency use.** Open `review.html` after extracting the entire project. The workstation is separate from the emergency application. Filter, inspect, record decisions and export a review JSON file before closing. Review data stays in the open page; no account or network is needed for review itself. Source links require internet. Keep separate exports for each qualified reviewer and reconcile decisions manually.
 
-The register has 313 entries, including 39 full text/checklist records, seven guided pathways, 139 audio clips, 22 illustration drafts, 11 planned artwork slots, 38 original quiz questions, 44 academy decisions, seven kit templates and six cross-cutting review gates. The wording is extracted from the actual application and accompanying registers; source references are not approvals. Pathway source coverage and narration correspondence must be checked by the reviewer.
+The register has 319 entries, including 39 full text/checklist records, seven guided pathways, 139 audio clips, 22 illustration drafts, 11 planned artwork slots, 38 original quiz questions, 47 academy decisions, seven kit templates and nine cross-cutting review gates. The wording is extracted from the actual application and accompanying registers; source references are not approvals. Pathway source coverage and narration correspondence must be checked by the reviewer.
 
 1. Clinical reviewer: validate all guides, thresholds, priority, sequence, age-specific guidance, narration, quizzes and tools against current guidance and local protocols.
 2. Illustration reviewer: examine every image; do not move art into emergency mode until separately approved and integrated into a tested release.
@@ -11,3 +11,5 @@ The register has 313 entries, including 39 full text/checklist records, seven gu
 5. Resolve all blocking findings, regenerate assets and hashes after changes, re-test and obtain written authorization for a specific release. The workstation does not grant release approval.
 
 Record date, reviewer qualifications, findings, remediation and re-test evidence. All decisions initially pending.
+
+RC2 added a dedicated CPR pacing and breath-cue review record, retained in RC3. RC3 also adds call-confirmation, no-connection and minor-injury review items plus three call-training decisions. Clinical reviewers should test it with fictional, supervised scenarios and verify the timing and age-specific defaults. Prior RC1 and RC2 review exports are version-specific; do not assume their decisions approve RC3.
