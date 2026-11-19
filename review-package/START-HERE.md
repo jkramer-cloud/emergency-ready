@@ -1,3 +1,7 @@
+# RC4 review addendum — required before any approval
+
+The workstation below is the RC3 baseline. Its CPR timing/method UI review entries refer to the previous build and must not be used as RC4 sign-off. Review the actual RC4 pacing screen, five-second cue (one-second breaths, early resume, elapsed session time), and all Spanish draft strings in `../SPANISH-REVIEW.json`. Require a bilingual clinical reviewer and device/usability acceptance. English voice, practice, and kit interfaces remain English.
+
 # RC3 independent review package
 
 **Not approved for emergency use.** Open `review.html` after extracting the entire project. The workstation is separate from the emergency application. Filter, inspect, record decisions and export a review JSON file before closing. Review data stays in the open page; no account or network is needed for review itself. Source links require internet. Keep separate exports for each qualified reviewer and reconcile decisions manually.
