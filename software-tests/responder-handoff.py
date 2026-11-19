@@ -1,0 +1,24 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+p=Path(__file__).resolve().parent.parent
+with sync_playwright() as pw:
+ b=pw.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']); page=b.new_page(viewport={'width':390,'height':844},accept_downloads=True); errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.set_content((p/'index.html').read_text());page.wait_for_timeout(150)
+ assert page.locator('#report-fallback').is_hidden()
+ page.evaluate('()=>startGuide("response")');page.wait_for_timeout(150);assert page.locator('#report-fallback').is_visible();assert page.evaluate('eventLog.some(e=>e.label.startsWith("Guide opened: "))')
+ page.evaluate('()=>startGuide("child")');page.locator('#pace-sound').uncheck();page.locator('[data-pace="start"]').click();page.wait_for_timeout(650);panel=page.locator('#report-inline [data-report-panel]');assert panel.is_visible()
+ panel.locator('[data-report-open]').click();assert page.evaluate('pace.running && report.runs===1 && report.compressions>=1');assert panel.locator('[data-report-body]').is_visible();assert 'App activity is not proof of treatment' in panel.inner_text();assert 'Child' in panel.locator('[data-report-settings]').inner_text()
+ page.locator('[data-stamp="5"]').first.click();page.wait_for_timeout(200);assert 'Shock delivered' in panel.locator('[data-report-events]').inner_text();assert 'Reported / button pressed' in panel.locator('[data-report-events]').inner_text()
+ page.evaluate('()=>{pace.start=performance.now()-18500;paceTick();updateTools()}');page.wait_for_timeout(200);assert page.evaluate('report.breathWindows===1');page.evaluate('()=>resyncPace()');assert page.evaluate('report.resyncs===1 && pace.running')
+ page.locator('.language-strip [data-lang="es"]').click();page.wait_for_timeout(200);assert 'Entrega de información a rescatistas' in panel.inner_text();assert 'Señales de compresión mostradas' in panel.inner_text();assert page.evaluate('pace.running && report.runs===1');page.locator('.language-strip [data-lang="en"]').click();page.wait_for_timeout(200)
+ panel.locator('[data-report-close]').click();assert page.evaluate('pace.running');page.locator('[data-pace="stop"]').click();assert page.evaluate('report.totalMs>0 && !report.active');before=page.evaluate('report.totalMs');page.locator('[data-pace="start"]').click();page.wait_for_timeout(600);page.locator('[data-pace="stop"]').click();assert page.evaluate('report.runs===2 && report.totalMs>'+str(before));panel.locator('[data-report-open]').click();page.wait_for_timeout(200)
+ page.evaluate('''()=>{let c=incidentCapture;c.state='ready';c.at=Date.now();c.started=100;c.ended=5100;c.blob=new Blob(['synthetic test audio'],{type:'audio/webm'});c.url=URL.createObjectURL(c.blob);syncCapture()}''');page.wait_for_timeout(200);assert panel.locator('[data-report-save-audio]').is_visible();assert panel.locator('[data-report-delete-audio]').is_visible();assert '00:05' in panel.locator('[data-report-stats]').inner_text()
+ page.add_style_tag(content='.language-strip,.callbar{position:static!important}');panel.screenshot(path='/mnt/data/emergency-ready-rc7-handoff.png');
+ with page.expect_download() as d:panel.locator('[data-report-save]').click()
+ data=Path(d.value.path()).read_text();assert 'App activity is not proof of treatment' in data and 'Shock delivered' in data and 'Reported / button pressed' in data and 'Pacing sessions: 2' in data
+ with page.expect_download() as d:panel.locator('[data-report-save-audio]').click()
+ assert Path(d.value.path()).read_bytes()==b'synthetic test audio'
+ page.evaluate('()=>goEmergencyHome()');page.wait_for_timeout(150);fallback=page.locator('#report-fallback [data-report-panel]');assert fallback.is_visible();assert 'Shock delivered' in fallback.inner_text();page.once('dialog',lambda d:d.accept());fallback.locator('[data-report-delete-audio]').click();page.wait_for_timeout(200);assert page.evaluate('incidentCapture.state==="idle"')
+ for w in [320,390,768]:
+  page.set_viewport_size({'width':w,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
+ page.evaluate('()=>{view="academy";selected=null;guided=null;render()}');page.wait_for_timeout(150);assert page.locator('#report-fallback').is_hidden();page.evaluate('()=>goEmergencyHome()');page.wait_for_timeout(150);fallback.locator('[data-report-open]').click();page.once('dialog',lambda d:d.accept());fallback.locator('[data-report-reset]').click();page.wait_for_timeout(150);assert page.evaluate('report.first===0 && report.runs===0 && eventLog.length===0');assert page.locator('#report-fallback').is_hidden();assert not errors,errors
+ b.close();print('PASS: automatic guide opening, manual stamps, cue and breath-window tracking, language switch, nonblocking handoff, multi-run elapsed total, local summary and audio save, audio delete, navigation, reset, training isolation and 320/390/768 layouts')

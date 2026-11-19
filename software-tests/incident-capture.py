@@ -1,0 +1,30 @@
+from playwright.sync_api import sync_playwright
+from pathlib import Path
+p=Path(__file__).resolve().parent.parent
+with sync_playwright() as pw:
+ b=pw.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox']); page=b.new_page(viewport={'width':390,'height':844},accept_downloads=True);errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.set_content((p/'index.html').read_text());page.wait_for_timeout(150)
+ page.evaluate('()=>{startGuide("child")}');page.locator('#pace-sound').uncheck();page.evaluate('''()=>{window.requests=0;window.stops=0;window.noticePlays=[];window.Audio=class {constructor(src){this.src=src}play(){noticePlays.push(this.src);return Promise.resolve()}pause(){}removeAttribute(){}};Object.defineProperty(navigator,'mediaDevices',{configurable:true,value:{getUserMedia:async()=>{requests++;return {getTracks:()=>[{stop:()=>stops++}],getAudioTracks:()=>[]}}}});window.MediaRecorder=class{constructor(){this.state='inactive';this.mimeType='audio/webm'}start(t){this.state='recording';window.slice=t}stop(){this.state='inactive';queueMicrotask(()=>{this.ondataavailable({data:new Blob(['fictional test'],{type:'audio/webm'})});this.onstop()})}}}''')
+ # ordinary CPR never requests mic
+ page.locator('[data-pace="start"]').click();assert page.evaluate('pace.running && requests===0');page.locator('[data-pace="stop"]').click()
+ # explicit opt in begins beat then microphone, announcement, automatic recording log
+ page.locator('[data-capture-start]').click();page.wait_for_function('incidentCapture.state==="recording"');assert page.evaluate('pace.running && requests===1 && slice===1000');assert page.evaluate('noticePlays.some(x=>x.endsWith("notice-en.mp3"))');assert 'Incident audio recording started' in page.locator('#event-list').inner_text();panel=page.locator('[data-capture-panel="cpr"]');assert panel.is_visible();page.wait_for_timeout(1100);assert panel.locator('.capture-clock').inner_text()=='00:01';assert page.locator('[data-incident-question="0"]').is_disabled()
+ page.add_style_tag(content='.language-strip,.callbar{position:static!important}');panel.screenshot(path='/mnt/data/emergency-ready-rc7-recording.png')
+ # a language change and canceling dial confirmation don't interrupt recording or CPR
+ page.locator('.language-strip [data-lang="es"]').click();page.wait_for_timeout(100);assert page.evaluate('pace.running && incidentCapture.state==="recording"');assert 'Grabando audio' in panel.locator('.capture-status').inner_text();page.locator('.callbar [data-call-open]').click();page.locator('#call-safety [data-call-close]').first.click();assert page.evaluate('pace.running && incidentCapture.state==="recording"');page.locator('.language-strip [data-lang="en"]').click()
+ page.locator('[data-pace="stop"]').click();page.wait_for_function('incidentCapture.state==="ready"');assert page.evaluate('!pace.running && stops===1');assert panel.locator('[data-capture-save]').is_visible();assert panel.locator('[data-capture-delete]').is_visible();assert 'Incident audio recording stopped' in page.locator('#event-list').inner_text();panel.screenshot(path='/mnt/data/emergency-ready-rc7-save-delete.png')
+ # local file download uses blob; no network; content is synthetic, not a real audio file
+ with page.expect_download() as d:panel.locator('[data-capture-save]').click()
+ assert d.value.suggested_filename.endswith('.webm');assert Path(d.value.path()).read_bytes()==b'fictional test'
+ # navigate and retrieve same clip at top of next non-training view
+ page.evaluate('()=>goEmergencyHome()');page.wait_for_timeout(150);fallback=page.locator('[data-capture-panel="fallback"]');assert fallback.is_visible();page.once('dialog',lambda d:d.accept());fallback.locator('[data-capture-delete]').click();assert page.evaluate('incidentCapture.state==="idle" && !incidentCapture.url && !incidentCapture.blob');assert fallback.is_hidden()
+ # rejection leaves timing running
+ page.evaluate('()=>startGuide("adult")');page.locator('#pace-sound').uncheck();page.evaluate('''()=>{navigator.mediaDevices.getUserMedia=async()=>{throw Error('denied')}}''');page.locator('[data-capture-start]').click();page.wait_for_function('incidentCapture.state==="error"');assert page.evaluate('pace.running');page.locator('[data-pace="stop"]').click()
+ # late microphone permission after pacing stop: release late stream, never start recorder
+ page.evaluate('''()=>{navigator.mediaDevices.getUserMedia=()=>new Promise(r=>window.resolveMic=r)}''');page.locator('[data-capture-start]').click();page.wait_for_function('incidentCapture.state==="pending"');page.locator('[data-pace="stop"]').click();page.evaluate('()=>resolveMic({getTracks:()=>[{stop:()=>stops++}]})');page.wait_for_timeout(120);assert page.evaluate('incidentCapture.state==="error" && stops===2 && !pace.running')
+ # confirmed call stops the active mic (suppress actual phone action)
+ page.evaluate('''()=>{navigator.mediaDevices.getUserMedia=async()=>({getTracks:()=>[{stop:()=>stops++}],getAudioTracks:()=>[]});window.addEventListener('click',e=>{if(e.target.closest('a[href^="tel:"]'))e.preventDefault()},true)}''');page.locator('[data-capture-start]').click();page.wait_for_function('incidentCapture.state==="recording"');page.locator('.callbar [data-call-open]').click();page.locator('#dial-confirm').click();page.wait_for_function('incidentCapture.state==="ready"');assert page.evaluate('!pace.running && stops===3');page.once('dialog',lambda d:d.accept());panel.locator('[data-capture-delete]').click()
+ # layout and training
+ for w in [320,390,768]:
+  page.set_viewport_size({'width':w,'height':844});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),w
+ page.evaluate('()=>{view="academy";selected=null;guided=null;render()}');assert page.locator('[data-capture-start]').count()==0;assert fallback.is_hidden();assert not errors,errors;b.close()
+ print('PASS: opt-in only, nonblocking start, bilingual announcement and switch, timestamps, confirmation cancel, stop, local Save, Delete, fallback navigation, permission denial, late permission cleanup, 320/390/768 and training isolation')
