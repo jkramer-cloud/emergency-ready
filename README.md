@@ -1,4 +1,12 @@
-# Emergency Ready v1.0 RC3 — private release candidate
+# Emergency Ready v1.0 RC4 — CPR and bilingual written preview
+
+**Private review build. Not approved for real emergencies.** RC4 supersedes prior CPR timing and defaults documented in historical release notes. Default 100/min (100/110/120 available), 5-second approximate breath cue with separate one-second breath prompts, early resume, automatic elapsed session timer. Language can be switched without restarting the timer. Spanish written guidance is draft; English narration, practice, inventory, some ancillary labels and source links remain English. No Spanish narration is included. Review exact translations in SPANISH-REVIEW.json and the RC4 addendum in review-package/START-HERE.md.
+
+### Updating from RC3
+Replace all files in the RC4 changed-files package at their existing paths in one commit if possible. At minimum, index.html, sw.js and OFFLINE-ASSET-REGISTER.json must match. All audio and artwork remain unchanged. Close all tabs/app windows once the update downloads, only when no emergency is underway.
+
+## Historical release notes
+# Emergency Ready v1.0 RC4 — private release candidate
 
 **NOT cleared for real emergency use or publication.** Open the extracted `index.html` to test fictional scenarios only. The current build preserves all v0.9.5 application features, assets and offline framework. No repository deployment. Reviewers: open `review-package/review.html` and read `review-package/START-HERE.md`. The review register covers exact application content and pending illustrations. All device, clinical and institutional release gates remain open.
 
@@ -129,3 +137,9 @@ Eight locally bundled original draft visuals in `assets/illustrations/`; inspect
 
 ## RC3 — call safety and offline help
 RC2 CPR age profiles, sounds and breath cues retained. A compact 911 entry opens one deliberate confirmation dialog; no automatic dialing, no call prerequisite to open guides. Cancel or Escape returns to the same screen without clearing timers. Actual dialing stops competing narration and pacing, consistent with RC2. A separate no-connection panel offers alternatives; no connection is guaranteed. Minor injury menu opens six existing guides. Two new fictional call practice activities (three decisions) make 28 activities and 47 decisions. The new menus and call dialog are written-only; the 139 earlier audio clips are unchanged. Review version 1.0-rc3 has 319 items; all need review. No public emergency use before approvals.
+
+
+## RC4 update — pending review
+- Large visible CPR method and rate buttons; default 100/min, unchanged accepted 100–120/min. Five-second breath cue with staged one-second breaths, immediate early resume, and elapsed session timer. Timing is approximate; do not delay care.
+- English/Español switch persists locally; Spanish draft written instructions for all 39 card records and 7 chooser paths. English voice, training, inventory and some source/review material remain English; English narration disabled in Spanish. Bilingual medical review is required, including all entries in SPANISH-REVIEW.json.
+- Reference: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support and https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps. Short interruption; each breath about one second. Five seconds is UI design, not a prescribed clinical duration.

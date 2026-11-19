@@ -1,7 +1,7 @@
 {
-  "version": "1.0-rc3",
+  "version": "1.0-rc4",
   "files": {
-    "index.html": "5fa5cc5e6a0b35140e806e138a601c95cdf00bdf73daeae7397bd866a5da4906",
+    "index.html": "2d17176c5a33d1b5757a424dd8942ebad490b31e37434cbbd003ba0eeefb8e5b",
     "manifest.webmanifest": "f360e2877c73b8bba51bc52fcd70c8e617e27656581461e16a0395cd206fb316",
     "assets/apple-touch-icon.png": "633439729beb98dcd72aee7cd35272f0bba7743addaf609357d4a57c70132e27",
     "assets/audio/adult-0.mp3": "95d12dc0f1214b6d64dd66d6087b11fc880980f4f15797466470de7a93121084",

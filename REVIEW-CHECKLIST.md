@@ -116,3 +116,9 @@ This is a development prototype, not an approved emergency reference. Do not rel
 - [ ] Confirm dialing only after deliberate click; no real telephone calls in drills.
 - [ ] Verify CPR and response continuity on cancel, including keyboard and device back; check actual call interruption behavior only with a mock test.
 - [ ] Review two new call practice scenarios.
+
+
+## RC4 update — pending review
+- Large visible CPR method and rate buttons; default 100/min, unchanged accepted 100–120/min. Five-second breath cue with staged one-second breaths, immediate early resume, and elapsed session timer. Timing is approximate; do not delay care.
+- English/Español switch persists locally; Spanish draft written instructions for all 39 card records and 7 chooser paths. English voice, training, inventory and some source/review material remain English; English narration disabled in Spanish. Bilingual medical review is required, including all entries in SPANISH-REVIEW.json.
+- Reference: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support and https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps. Short interruption; each breath about one second. Five seconds is UI design, not a prescribed clinical duration.

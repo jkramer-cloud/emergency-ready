@@ -1,3 +1,8 @@
+# RC4 software test results
+
+Passed in Chromium (injected HTML) and simulated service worker: 9 rate/method combinations, 5-second breath phases, elapsed timer, early resume, language switching during active CPR, written translation checks on 39 card records, Spanish keyword search, app and Hub call modal language switch, 3 mobile/desktop widths, 834 guided display configurations, 47 training decisions, library/kits/review baseline behavior, 12 confirmation dialog layouts, no real telephone activation, 167-file cache install/repair/corruption checks. Language translations are drafts, not clinically or professionally verified. No physical-device audio, clinical timing validation, actual offline browser installation or student test performed. The previous RC3 review workstation is historical; see RC4 addendum and SPANISH-REVIEW.json.
+
+## Historical test results
 # v1.0 RC2 — software verification
 
 This is a private, unapproved release candidate. Software checks do not validate clinical correctness or physical-device behavior.
@@ -30,3 +35,9 @@ RC3 includes all RC2 CPR and breath-cue functionality. Automated tests on the cu
 - Mock service worker: 167-file hashed cache installation, corrupt-download rollback, deferred activation, offline requests, audio range requests and verified repair.
 
 Clinical approval, physical-device phone behavior/audio, native installation and offline restart, screen-reader testing and supervised child usability remain outstanding. No real emergency calls should be made for testing. No new narration was added for the minor-injury menu or call dialogs.
+
+
+## RC4 update — pending review
+- Large visible CPR method and rate buttons; default 100/min, unchanged accepted 100–120/min. Five-second breath cue with staged one-second breaths, immediate early resume, and elapsed session timer. Timing is approximate; do not delay care.
+- English/Español switch persists locally; Spanish draft written instructions for all 39 card records and 7 chooser paths. English voice, training, inventory and some source/review material remain English; English narration disabled in Spanish. Bilingual medical review is required, including all entries in SPANISH-REVIEW.json.
+- Reference: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support and https://www.redcross.org/take-a-class/cpr/performing-cpr/cpr-steps. Short interruption; each breath about one second. Five seconds is UI design, not a prescribed clinical duration.
